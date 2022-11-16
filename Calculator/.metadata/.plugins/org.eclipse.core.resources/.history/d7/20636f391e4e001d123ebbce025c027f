@@ -1,0 +1,69 @@
+package uk.ac.rhul.cs2800;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+/**
+ * @author muhtasim
+ *
+ */
+
+class TestEntry {
+  
+  private Entry Entry;
+  
+  @Test
+  void testFloat() throws BadTypeException {
+    Entry  = new Entry((float) 9);
+    assertEquals(9, Entry.getValue());
+  }
+  
+  @Test
+  void testFloatNotEqual() throws BadTypeException {
+    Entry  = new Entry((float) 9);
+    assertNotEquals(99, Entry.getValue());
+  }
+  
+  @Test
+  void testSymbol() throws BadTypeException {
+    Entry  = new Entry(Symbol.PLUS);
+    assertEquals(Symbol.PLUS, Entry.getSymbol());
+  }
+  
+  void testSymbolNotEqual() throws BadTypeException {
+    Entry  = new Entry(Symbol.PLUS);
+    assertEquals(Symbol.MINUS, Entry.getSymbol());
+  }
+  
+  @Test
+  void testString() throws BadTypeException {
+    Entry  = new Entry("test");
+    assertEquals("test", Entry.getString());
+  }
+  
+  @Test
+  void testStringnotEqual() throws BadTypeException {
+    Entry  = new Entry("test");
+    assertNotEquals("ANOTHER TEST", Entry.getString());
+  }
+  
+  /**
+   * 
+   */
+  /**
+   * 
+   */
+  @Test
+  void testType() {
+    Entry  = new Entry(Type.INVALID);
+    assertEquals(Type.INVALID, Entry.getType());
+  }
+  
+  @Test
+  void testTypeNotEqual() {
+    Entry  = new Entry(Type.INVALID);
+    assertNotEquals(Type.NUMBER, Entry.getType());
+  }
+  
+}

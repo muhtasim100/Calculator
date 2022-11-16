@@ -1,0 +1,71 @@
+package uk.ac.rhul.cs2800;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+/**
+ * Test Case using JUnit 5 for Entry class.
+ *
+ * @author muhtasim
+ *
+ */
+
+class TestEntry {
+  
+  private Entry Entry;
+  
+  /**
+   * Checks if constructor and getter works by assigning float value then checks 
+   * by calling getValue method and assertEquals.
+   *
+   * @throws BadTypeException getValue method throws BadTypeException in Entry class
+   */
+  @Test
+  void testFloat() throws BadTypeException {
+    Entry  = new Entry((float) 9); // Float value is set to 9.
+    assertEquals(9, Entry.getValue());
+  }
+  
+  @Test
+  void testFloatNotEqual() throws BadTypeException {
+    Entry  = new Entry((float) 9);
+    assertNotEquals(99, Entry.getValue()); // Compares with 99 instead of 9.
+  }
+  
+  @Test
+  void testSymbol() throws BadTypeException {
+    Entry  = new Entry(Symbol.PLUS);
+    assertEquals(Symbol.PLUS, Entry.getSymbol());
+  }
+  
+  void testSymbolNotEqual() throws BadTypeException {
+    Entry  = new Entry(Symbol.PLUS); //value is set to PLUS.
+    assertEquals(Symbol.MINUS, Entry.getSymbol());
+  }
+  
+  @Test
+  void testString() throws BadTypeException {
+    Entry  = new Entry("test"); // value is set to test.
+    assertEquals("test", Entry.getString());
+  }
+  
+  @Test
+  void testStringnotEqual() throws BadTypeException {
+    Entry  = new Entry("test"); 
+    assertNotEquals("ANOTHER TEST", Entry.getString()); // Compared to ANOTHER TEST.
+  }
+  
+  @Test
+  void testType() {
+    Entry  = new Entry(Type.INVALID); // value is set to INVALID.
+    assertEquals(Type.INVALID, Entry.getType());
+  }
+  
+  @Test
+  void testTypeNotEqual() {
+    Entry  = new Entry(Type.INVALID); 
+    assertNotEquals(Type.NUMBER, Entry.getType());
+  }
+  
+}

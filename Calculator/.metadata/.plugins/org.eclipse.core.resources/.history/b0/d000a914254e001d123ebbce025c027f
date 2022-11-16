@@ -1,0 +1,36 @@
+package uk.ac.rhul.cs2800;
+
+import java.util.EmptyStackException;
+
+/**
+ * Stack.
+ *
+ * @author muhtasim
+ *
+ */
+public class Stack {
+  
+  int size = 0;
+  int value = 0;
+
+  public int size() {
+    return size;
+  }
+
+  public void push(int i) {
+    size = 1;
+    value = i;
+  }
+
+  /**
+   * 
+   * @return
+   */
+  public Object pop() {
+    if (size == 0) {
+      throw new EmptyStackException();
+    }
+    return value;
+  }
+
+}

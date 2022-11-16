@@ -1,0 +1,27 @@
+package uk.ac.rhul.cs2800;
+
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+
+/**
+ *A JUnit 5 test case for Type enum class. Checks
+ *
+ * @author muhtasim
+ *
+ */
+class TestType {
+
+  @Test
+  void testTypeNumber() {
+    String expected = "NUMBER";
+    assertEquals(expected, Type.NUMBER.toString());
+  }
+
+  
+  @Test
+  void testNumNotEq() {
+    String expected = "NUMBER ";
+    assertNotEquals(expected, Type.NUMBER.toString());
+  }
+  
+}

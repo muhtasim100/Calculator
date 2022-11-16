@@ -1,0 +1,33 @@
+package uk.ac.rhul.cs2800;
+
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+
+class TestSymbol {
+  
+  @Test
+  void testSymbolRightBracket() {
+    String expected = ")";
+    assertEquals(expected, Symbol.RIGHTBRACKET.toString());
+  }
+
+
+  @Test
+  void testSymbolPlus() {
+    String expected = "+";
+    assertEquals(expected, Symbol.PLUS.toString());
+  }
+  
+  @Test
+  void testSymbolPlus() {
+    String expected = "+";
+    assertEquals(expected, Symbol.PLUS.toString());
+  }
+  
+  @Test
+  void testSymbolLeftBracket() {
+    String expected = "(";
+    assertEquals(expected, Symbol.LEFTBRACKET.toString());
+  
+
+}

@@ -1,0 +1,45 @@
+package uk.ac.rhul.cs2800;
+
+import java.util.ArrayList;
+import java.util.EmptyStackException;
+import java.util.List;
+
+/**
+ * Stack.
+ *
+ * @author muhtasim
+ *
+ */
+public class Stack {
+  
+  int size = 0;
+  int[] value = new int[10];
+  private List<Entry> entry;
+  
+  public Stack() {
+    this.size = size;
+    this.entry = new ArrayList<>();
+  }
+
+  public int size() {
+    return size;
+  }
+
+  public void push(int i) {
+    value[size] = i;
+    size = size + 1;
+  }
+
+  /**
+   * 
+   * @return
+   */
+  public Object pop() {
+    if (size == 0) {
+      throw new EmptyStackException();
+    }
+    size = size - 1;
+    return value[size];
+  }
+
+}

@@ -1,0 +1,21 @@
+package uk.ac.rhul.cs2800;
+
+/**
+ * Stack.
+ *
+ * @author muhtasim
+ *
+ */
+public class Stack {
+  
+  int size = 0;
+
+  public int size() {
+    return 0;
+  }
+
+  public void push(int i) {
+    
+  }
+
+}

@@ -1,0 +1,25 @@
+package uk.ac.rhul.cs2800;
+
+import static org.junit.jupiter.api.Assertions.assertThrows;
+
+import java.util.EmptyStackException;
+
+/**
+ * Stack.
+ *
+ * @author muhtasim
+ *
+ */
+public class Stack {
+  
+  int size = 0;
+
+  public int size() {
+    return size;
+  }
+
+  public void push(int i) {
+    size = 1;
+  }
+
+}

@@ -1,0 +1,109 @@
+
+package uk.ac.rhul.cs2800;
+
+import uk.ac.rhul.cs2800.Symbol;
+
+import uk.ac.rhul.cs2800.Type;
+
+/**
+ * This is a Entry class with constructors and getters.
+ * * @author muhtasim
+ *
+ */
+
+public class Entry {
+  float number;
+  Symbol other;
+  String str;
+  Type type;
+  
+  /**
+   * Constructor for Entry instance creation.
+   *
+   * @param number2 the number in the mathematical expression
+   * @param other the symbol in the mathematical expression
+   * @param str a string of the expression
+   * @param type the Enum type
+   */
+  
+  public Entry(float number) {
+    this.number = number;
+    type = Type.NUMBER;
+  }
+  
+  
+  public Entry(Symbol which) {
+    this.other = which;
+    type = Type.SYMBOL;
+  }
+  
+  public Entry(String str) {
+    this.str = str;
+    type = Type.STRING;
+  }
+  
+  public Entry(Type type) {
+    this.type = type;
+  }
+  
+  
+  /**
+   * Getter method for type. Called to retrieve type value which is an Enum Type.
+   *
+   * @return gets and returns the type
+   */
+  
+  public Type getTypef() {
+    return type;
+  }
+  /**
+   * 
+   * @return
+   * @throws BadTypeException
+   */
+  public Type getType() throws BadTypeException {
+    if (type != Type.Type) {
+      throw new BadTypeException("Exception");
+    }
+    return type;
+  }
+  
+  /**
+   * Getter method for String.
+   *
+   * @return gets and returns the String argument str
+   */
+  
+  public String getString() throws BadTypeException {
+    if (type != Type.STRING) {
+      throw new BadTypeException("Exception");
+    }
+    return str;
+  }
+
+  /**
+   * Getter method for symbol.
+   *
+   * @return gets and returns the enumeration Symbol argument other
+   * @throws BadType Exception is thrown when type is not of Enum 
+   */
+  public Symbol getSymbol() throws BadTypeException {
+    if (type != Type.SYMBOL) {
+      throw new BadTypeException("Exception");
+    }
+    return other;
+  }
+  
+  /**
+   * Getter method for number.
+   *
+   * @return gets and returns the value of number which is a float
+   */
+  public float getValue() throws BadTypeException {
+    if (type != Type.NUMBER) {
+      throw new BadTypeException("Exception");
+    }
+    return number;
+  }
+  
+}

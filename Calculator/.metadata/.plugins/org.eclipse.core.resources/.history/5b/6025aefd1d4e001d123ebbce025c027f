@@ -1,0 +1,74 @@
+package uk.ac.rhul.cs2800;
+
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+
+class TestSymbol {
+  
+  @Test
+  void testSymbolRightBracket() {
+    String expected = ")";
+    assertEquals(expected, Symbol.RIGHTBRACKET.toString());
+  }
+
+  
+  @Test
+  void testSymbolLeftBracket() {
+    String expected = "(";
+    assertEquals(expected, Symbol.LEFTBRACKET.toString());
+    }
+  
+  @Test
+  void testSymbolTimes() {
+    String expected = "x";
+    assertEquals(expected, Symbol.TIMES.toString());
+  }
+  
+  @Test
+  void testSymbolDivide() {
+    String expected = "/";
+    assertEquals(expected, Symbol.DIVIDE.toString());
+  }
+  
+  @Test
+  void testSymbolPlus() {
+    String expected = "+";
+    assertEquals(expected, Symbol.PLUS.toString());
+  }
+  
+  @Test
+  void testSymbolMinus() {
+    String expected = "-";
+    assertEquals(expected, Symbol.MINUS.toString());
+  }
+  
+  @Test
+  void testSymbolInvalid() {
+    String expected = "INVALID";
+    assertEquals(expected, Symbol.INVALID.toString());
+  }
+  
+  @Test
+  void testTimesSpace() {
+    String expected = " x ";
+    assertNotEquals(expected, Symbol.TIMES.toString());
+  }
+  
+  @Test
+  void testTimesCaps() {
+    String expected = "X";
+    assertNotEquals(expected, Symbol.TIMES.toString());
+  }
+  
+  @Test
+  void testMinusSpace() {
+    String expected = "- ";
+    assertNotEquals(expected, Symbol.MINUS.toString());
+  }
+  
+  @Test
+  void testInvalidLower() {
+    String expected = "invalid";
+    assertNotEquals(expected, Symbol.INVALID.toString());
+  }
+}

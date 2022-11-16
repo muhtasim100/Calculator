@@ -1,0 +1,16 @@
+package uk.ac.rhul.cs2800;
+
+/**
+ * Stack.
+ * 
+ * @author muhtasim
+ *
+ */
+public class Stack {
+
+  public static void main(String[] args) {
+    // TODO Auto-generated method stub
+
+  }
+
+}

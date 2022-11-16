@@ -1,0 +1,17 @@
+package uk.ac.rhul.cs2800;
+
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+
+class TestSymbol {
+  
+  private Symbol symEntry;
+  
+  @Test
+  void testSymEntry(){
+    symEntry = new Symbol(Symbol.MINUS);
+    assertEquals(Type.INVALID, Symbol.toString());
+
+
+  }
+}

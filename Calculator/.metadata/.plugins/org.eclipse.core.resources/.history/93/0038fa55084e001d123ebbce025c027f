@@ -1,0 +1,86 @@
+
+package uk.ac.rhul.cs2800;
+
+import uk.ac.rhul.cs2800.Symbol;
+
+import uk.ac.rhul.cs2800.Type;
+
+/**
+ * This is a Entry class with constructors and getters.
+ * * @author muhtasim
+ *
+ */
+
+public class Entry {
+  float number;
+  Symbol other;
+  String str;
+  Type type;
+  
+  /**
+   * Constructor for Entry instance creation.
+   *
+   * @param number2 the number in the mathematical expression
+   * @param other the symbol in the mathematical expression
+   * @param str a string of the expression
+   * @param type the Enum type
+   */
+  
+  public Entry(Type number) {
+    this.type = number;
+  }
+  
+  
+  public Entry(Symbol which) {
+    this.other = which;
+  }
+  
+  
+  /**
+   * Getter method for type. Called to retrieve type value which is an Enum Type.
+   *
+   * @return gets and returns the type
+   */
+  
+  public Type getType() {
+    return type;
+  }
+  
+  /**
+   * Getter method for String.
+   *
+   * @return gets and returns the String argument str
+   */
+  
+  
+  @Override
+  public String toString() {
+    return "Entry number = " + number + ", other=" + other + ", str=" + str + ", type=" + type;
+  }
+
+  /**
+   * Getter method for symbol.
+   *
+   * @return gets and returns the enumeration Symbol argument other
+   * @throws BadType Exception is thrown when type is not of Enum 
+   */
+  public Symbol getSymbol() throws BadTypeException {
+    if (type != Type.SYMBOL) {
+      throw new BadTypeException("Exception");
+    }
+    return other;
+  }
+  
+  /**
+   * Getter method for number.
+   *
+   * @return gets and returns the value of number which is a float
+   */
+  public float getValue() throws BadTypeException {
+    if (type != Type.NUMBER) {
+      throw new BadTypeException("Exception");
+    }
+    return number;
+  }
+  
+}

@@ -1,0 +1,15 @@
+package uk.ac.rhul.cs2800;
+
+/**
+ * BadType Exception class containing a String.
+ *
+ * @author muhtasim
+ *
+ */
+public class BadTypeException extends Exception {
+
+  public BadTypeException(String message) {
+    super(message);
+  }
+
+}

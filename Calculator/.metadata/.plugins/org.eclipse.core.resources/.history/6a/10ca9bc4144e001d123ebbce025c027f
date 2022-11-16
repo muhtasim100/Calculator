@@ -1,0 +1,14 @@
+package uk.ac.rhul.cs2800;
+
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+
+class TestSymbol {
+  
+  private Symbol symEntry;
+  @Test
+  void testSymEntry(){
+    
+    assertEquals(Type.INVALID, Entry.getType());
+
+}

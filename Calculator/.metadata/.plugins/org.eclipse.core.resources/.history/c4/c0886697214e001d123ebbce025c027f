@@ -1,0 +1,24 @@
+package uk.ac.rhul.cs2800;
+
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+
+class TestStack {
+
+  @Test
+  void test() {
+    Stack s = new Stack();    
+  }
+
+  @Test
+  void testSize() {
+    Stack s = new Stack();    
+    assertEquals(s.size(), 0);
+  }
+  
+  @Test
+  void test2() {
+    
+  }
+  
+}

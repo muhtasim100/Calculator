@@ -1,0 +1,79 @@
+package uk.ac.rhul.cs2800;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+import java.util.EmptyStackException;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+/**
+ * Test case for stack.
+ * 
+ * @author muhtasim
+ *
+ */
+class TestStack {
+  private Stack s;
+
+  @BeforeEach
+  public void setup() {
+    
+    s = new Stack();
+  }
+
+  @Test // Test 1
+  void testSize() {
+    Stack s = new Stack();    
+    assertEquals(s.size(), 0, "Test a new stack to check its size is zero.");
+  }
+  
+  @Test // Test 2
+  void testPush() {
+    Entry value = new Entry(3);
+    s.push(value);
+    assertEquals(s.size(), 1, "Pushes a value to the stack and checks size.");
+  }
+  
+  @Test // Test 3
+  void testEmptyPop() {
+    assertThrows(EmptyStackException.class, () -> s.pop(), "Cannot pop from an empty stack.");
+  }
+  
+  @Test // Test 4
+  void testPushThenPop() throws BadTypeException {
+    Entry value = new Entry(7); 
+    s.push(value);
+    assertEquals(s.pop().getValue(), 7, "Pushing then popping 7 should return 7.");
+    assertEquals(s.size(), 0, "After popping, the size should be 0.");
+    assertThrows(EmptyStackException.class, () -> s.pop(), "Cannot pop from an empty stack.");
+  }
+    
+
+  @Test // Test 5
+  void testDoublePop() throws BadTypeException {
+    Entry value = new Entry(7);
+    Entry value2 = new Entry(4);
+    s.push(value);
+    s.push(value2);
+    assertEquals(s.size(), 2, "The size should be 2.");
+    assertEquals(s.pop().getValue(), 4, "Pushing then popping 4 should return 4.");
+    assertEquals(s.pop().getValue(), 7, "Pushing then popping 7 should return 7.");
+    assertEquals(s.size(), 0, "After popping, the size should be 0.");
+  }
+  
+  @Test // Test 6
+  void testTop() {
+    Entry value = new Entry(10);
+    Entry value2 = new Entry(1);
+    Entry value3 = new Entry(30);
+    s.push(value);
+    s.push(value2);
+    s.push(value3);
+    assertEquals(s.top(), 30, "Top method should return 30.");
+    
+  }
+
+}
+
+   
+

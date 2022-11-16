@@ -1,0 +1,71 @@
+package uk.ac.rhul.cs2800;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.util.EmptyStackException;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+/**
+ * Test case for stack.
+ * 
+ * @author muhtasim
+ *
+ */
+class TestStack {
+  private Stack s;
+  private Entry entry;
+  
+
+  @BeforeEach
+  public void setup() {
+    
+    s = new Stack();
+    entry = new Entry(1);
+  }
+
+  @Test // Test 1
+  void testSize() {
+    Stack s = new Stack();    
+    assertEquals(s.size(), 0, "Test a new stack to check its size is zero.");
+  }
+  
+  @Test // Test 2
+  void testPush() {
+    s.push(3);
+    assertEquals(s.size(), 1, "Pushes a value to the stack and checks size.");
+  }
+  
+  @Test // Test 3
+  void testEmptyPop() {
+    assertThrows(EmptyStackException.class, () -> s.pop(), "Cannot pop from an empty stack.");
+  }
+  
+  @Test // Test 4
+  void testPushThenPop() {
+    s.push(7);
+    assertEquals(s.pop(), 7, "Pushing then popping 7 should return 7.");
+    assertEquals(s.size(), 0, "After popping, the size should be 0.");
+    assertThrows(EmptyStackException.class, () -> s.pop(), "Cannot pop from an empty stack.");
+  }
+    
+
+  @Test // Test 5
+  void testDoublePop() {
+    s.push(7);
+    s.push(4);
+    assertEquals(s.size(), 2, "After popping, the size should be 0.");
+    assertEquals(s.pop(), 4, "Pushing then popping 4 should return 4.");
+    assertEquals(s.pop(), 7, "Pushing then popping 7 should return 7.");
+    assertEquals(s.size(), 0, "After popping, the size should be 0.");
+  }
+  
+  @Test //Test 6
+  void pushLots() {
+      for (int index = 0; index < 1000 ; index++) {
+          s.push(new Entry(index + 5));
+          assertEquals(s.size, index + 1,"Pushing increases the size.");
+      }
+  }
+}
+

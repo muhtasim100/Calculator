@@ -1,0 +1,21 @@
+package uk.ac.rhul.cs2800;
+
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+
+class TestType {
+
+  @Test
+  void testTypeNumber() {
+    String expected = "NUMBER";
+    assertEquals(expected, Type.NUMBER.toString());
+  }
+
+  
+  @Test
+  void testTypeNumber() {
+    String expected = "NUMBER ";
+    assertEquals(expected, Type.NUMBER.toString());
+  }
+  
+}

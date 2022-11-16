@@ -1,0 +1,78 @@
+
+package uk.ac.rhul.cs2800;
+
+import uk.ac.rhul.cs2800.Symbol;
+
+import uk.ac.rhul.cs2800.Type;
+
+/**
+ * This is a Entry class with constructors and getters.
+ * * @author muhtasim
+ *
+ */
+
+public class Entry {
+  float number;
+  Symbol other;
+  String str;
+  Type type;
+  
+  /**
+   * Constructor for Entry instance creation.
+   *
+   * @param number the number in the mathematical expression
+   * @param other the symbol in the mathematical expression
+   * @param str a string of the expression
+   * @param type the Enum type
+   */
+  public Entry(float number, Symbol other, String str, Type type) {
+    this.number = number;
+    this.other = other;
+    this.str = str;
+    this.type = type;
+  }
+  
+  /**
+   * Getter method for type.
+   *
+   * @return gets and returns the type
+   */
+  
+  public Type getType() {
+    return type;
+  }
+  
+  /**
+   * Getter method for String.
+   *
+   * @return gets and returns the String argument str
+   */
+  
+  public String getString() {
+    return str;
+  }
+  
+  /**
+   * Getter method for symbol.
+   *
+   * @return gets and returns the enumeration Symbol argument other
+   */
+  public Symbol getSymbol() throws Exception {
+    if (type != Type.SYMBOL) {
+      throw new Badtype("Exception");
+    }
+    else {
+      return other;
+    }
+  }
+  
+  /**
+   * Getter method for number.
+   *
+   * @return gets and returns the value of number which is a float
+   */
+  public float getValue() {
+    return number;
+  }
+  
+}

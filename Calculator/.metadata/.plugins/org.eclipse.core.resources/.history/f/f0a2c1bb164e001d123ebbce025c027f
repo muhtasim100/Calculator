@@ -1,0 +1,14 @@
+package uk.ac.rhul.cs2800;
+
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+
+class TestSymbol {
+  
+  @Test
+  void testSymEntry(){
+    //Symbol symEntry = new Symbol();
+    String expected = "Left Bracket";
+    assertEquals(expected, Symbol.LEFTBRACKET.toString());
+  }
+}

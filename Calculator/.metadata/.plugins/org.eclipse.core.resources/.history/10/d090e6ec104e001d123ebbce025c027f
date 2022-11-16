@@ -1,0 +1,20 @@
+package uk.ac.rhul.cs2800;
+package CW1Calculator;
+
+/**
+ * This Enumeration class has a list of non-number tokens possible in a mathematical expression.
+ * * @author muhtasim
+ *
+ */
+public enum Symbol {
+  LEFTBRACKET("Left Bracket"),
+  RIGHTBRACKET("Right Bracket"),
+  TIMES("Times"),
+  DIVIDE("Divide"),
+  PLUS,
+  MINUS,
+  INVALID;
+  
+  
+  private String symEntry;
+}

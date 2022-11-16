@@ -1,0 +1,34 @@
+package uk.ac.rhul.cs2800;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class TestEntry {
+  
+  private Entry Entry;
+  
+  @Test
+  void testConstructors() throws BadTypeException {
+    Entry  = new Entry((float) 9);
+    assertNotEquals(Entry.getValue(), Entry.getSymbol());
+    
+    
+  }
+  
+  
+  @Test
+  void testGetType() throws BadTypeException {
+    Entry entry = new Entry(Type.NUMBER);
+    assertEquals(entry.getValue(), 7);
+   
+  }
+  
+  @Test
+  void testGetValue() throws BadTypeException {
+    Entry test = new Entry(34);
+    assertEquals(45, test.getValue());
+  }
+  
+  
+}

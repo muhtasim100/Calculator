@@ -1,0 +1,46 @@
+package uk.ac.rhul.cs2800;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.util.EmptyStackException;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+class TestStack {
+  private Stack s;
+
+  @BeforeEach
+  public void setup() {
+    
+    s = new Stack();
+  }
+
+  @Test
+  void testSize() {
+    Stack s = new Stack();    
+    assertEquals(s.size(), 0, "Test a new stack to check its size is zero.");
+  }
+  
+  @Test
+  void testPush() {
+    s.push(3);
+    assertEquals(s.size(), 1, "Pushes a value to the stack and checks size.");
+  }
+  
+  @Test
+  void testEmptyPop() {
+    assertThrows(EmptyStackException.class, () -> s.pop(), "Cannot pop from an empty stack");
+  }
+  
+  @Test
+  void testPopThenPush() {
+    s.push(47);
+    s.push(2);
+    assertEquals(s.size(), 2, "Pushing then popping 47 should return 47.");
+    assertEquals(s.pop(), 47, "Pushing then popping 47 should return 47.");
+    assertEquals(s.size(), 0, "After popping, the size should be 0.");
+    assertThrows(EmptyStackException.class, () -> s.pop(), "Cannot pop from an empty stack");
+  }
+    
+}
+

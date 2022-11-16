@@ -1,0 +1,28 @@
+package uk.ac.rhul.cs2800;
+
+import java.util.EmptyStackException;
+
+/**
+ * Stack.
+ *
+ * @author muhtasim
+ *
+ */
+public class Stack {
+  
+  int size = 0;
+
+  public int size() {
+    return size;
+  }
+
+  public void push(int i) {
+    size = 1;
+  }
+
+  public void testEmptyPop() {
+    EmptyStackException e = assertThrows(EmptyStackException.class, () -> s.pop(),
+        "You can not pop from an empty stack");
+
+  }
+}

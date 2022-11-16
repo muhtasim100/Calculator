@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestStack" project="CW1Calculator" tests="6" started="6" failures="0" errors="0" ignored="0">
+  <testsuite name="uk.ac.rhul.cs2800.TestStack" time="0.055" displayname="TestStack" uniqueid="[engine:junit-jupiter]/[class:uk.ac.rhul.cs2800.TestStack]">
+    <testcase name="testPushThenPop" classname="uk.ac.rhul.cs2800.TestStack" time="0.035" displayname="testPushThenPop()" uniqueid="[engine:junit-jupiter]/[class:uk.ac.rhul.cs2800.TestStack]/[method:testPushThenPop()]"/>
+    <testcase name="testTop" classname="uk.ac.rhul.cs2800.TestStack" time="0.001" displayname="testTop()" uniqueid="[engine:junit-jupiter]/[class:uk.ac.rhul.cs2800.TestStack]/[method:testTop()]"/>
+    <testcase name="testPush" classname="uk.ac.rhul.cs2800.TestStack" time="0.002" displayname="testPush()" uniqueid="[engine:junit-jupiter]/[class:uk.ac.rhul.cs2800.TestStack]/[method:testPush()]"/>
+    <testcase name="testSize" classname="uk.ac.rhul.cs2800.TestStack" time="0.0" displayname="testSize()" uniqueid="[engine:junit-jupiter]/[class:uk.ac.rhul.cs2800.TestStack]/[method:testSize()]"/>
+    <testcase name="testDoublePop" classname="uk.ac.rhul.cs2800.TestStack" time="0.002" displayname="testDoublePop()" uniqueid="[engine:junit-jupiter]/[class:uk.ac.rhul.cs2800.TestStack]/[method:testDoublePop()]"/>
+    <testcase name="testEmptyPop" classname="uk.ac.rhul.cs2800.TestStack" time="0.002" displayname="testEmptyPop()" uniqueid="[engine:junit-jupiter]/[class:uk.ac.rhul.cs2800.TestStack]/[method:testEmptyPop()]"/>
+  </testsuite>
+</testrun>
