@@ -13,7 +13,7 @@ import java.util.List;
 public class Stack {
   
   private int size;
-  private List<Entry> values;
+  public List<Entry> values;
   
   public Stack() {
     this.size = 0;
@@ -45,6 +45,7 @@ public class Stack {
     }
     size = size - 1; // To return the value of the popped item.
     return values.get(size);
+    
   }
 
   /**
@@ -58,5 +59,6 @@ public class Stack {
     }
     return values.get(size - 1);
   }
+
 }
 
