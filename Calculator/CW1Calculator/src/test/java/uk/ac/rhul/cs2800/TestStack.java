@@ -55,8 +55,8 @@ class TestStack {
    * First an entry is pushed into the stack using push() method. The entry is then popped to leave
    * the stack empty. We do this with the pop() method. We need an aeertThrows() to indicate that
    * the method throws EmptyStackException.
-   * 
-   * @throws BadTypeException
+   *
+   * @throws BadTypeException if type does not match.
    */
   @Test // Test 4
   void testPushThenPop() throws BadTypeException {
@@ -70,8 +70,8 @@ class TestStack {
   /**
    * Test pushes 2 entries in the stack with push() and then uses pop() to pop both entries.
    * AssertEquals() is used to check the size the end to check if the stack in empty.
-   * 
-   * @throws BadTypeException
+   *
+   * @throws BadTypeException if wrong Type.
    */
   @Test // Test 5
   void testDoublePop() throws BadTypeException {
@@ -88,8 +88,8 @@ class TestStack {
   /**
    * Testing to check the correct function of top() method. 3 entries are pushed in the stack and
    * then the getValue() method is used to check if the last pushed entry is the returned value.
-   * 
-   * @throws BadTypeException
+   *
+   * @throws BadTypeException if wrong Type.
    */
   @Test // Test 6
   void testTop() throws BadTypeException {
