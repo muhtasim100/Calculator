@@ -3,7 +3,8 @@ package uk.ac.rhul.cs2800;
 
 /**
  * This is a Entry class with constructors and getters.
- * * @author muhtasim
+ *
+ * @author muhtasim
  *
  */
 
