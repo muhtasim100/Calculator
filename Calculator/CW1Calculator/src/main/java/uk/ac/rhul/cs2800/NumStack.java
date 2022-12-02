@@ -31,7 +31,7 @@ public class NumStack {
       throw new EmptyStackException();
     }
     return numStack.values.get(numStack.size() - 1);
-    
+
   }
 
   /**
