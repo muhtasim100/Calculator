@@ -11,14 +11,19 @@ import java.util.EmptyStackException;
 public class StrStack {
   public Stack strStack;
 
-  public StrStack(Stack StrStack) {
+  /**
+   * Constructor for strStack.
+   *
+   * @param strStack is a new Stack.
+   */
+  public StrStack(Stack strStack) {
     this.strStack = new Stack();
   }
 
   /**
    * Push function pushes to the values Stack.
    *
-   * @param str String.
+   * @param str String is pushed to the stack.
    */
   public void push(String str) {
     Entry values = new Entry(str);

@@ -3,31 +3,32 @@ package uk.ac.rhul.cs2800;
 import java.util.EmptyStackException;
 
 /**
- * NumStack class.
+ * OpStack class.
  *
  * @author muhtasim
  *
  */
-public class NumStack {
-  public Stack numStack;
-
+public class OpStack {
+  public Stack opStack;
+  
   /**
-   * Constructor for numStack.
+   * Constructor for opStack.
    *
-   * @param numStack is a new Stack.
+   * @param opStack is a new Stack.
    */
-  public NumStack(Stack numStack) {
-    this.numStack = new Stack();
+
+  public OpStack(Stack opStack) {
+    this.opStack = new Stack();
   }
-
+  
   /**
-   * Pushes float value to stack values as a new Entry.
+   * Push function pushes to the values Stack.
    *
-   * @param i float value that is pushed in the stack as an entry.
+   * @param i Symbol i is pushed to the stack.
    */
-  public void push(float i) {
+  public void push(Symbol i) {
     Entry values = new Entry(i);
-    numStack.push(values);
+    opStack.push(values);
   }
 
   /**
@@ -36,10 +37,10 @@ public class NumStack {
    * @return value with popped value from stack.
    */
   public Entry pop() {
-    if (numStack.size() == 0) { // Checks for empty stack.
+    if (opStack.size() == 0) { // Checks for empty stack.
       throw new EmptyStackException();
     }
-    return numStack.values.get(numStack.size() - 1);
+    return opStack.values.get(opStack.size() - 1);
 
   }
 
@@ -49,7 +50,7 @@ public class NumStack {
    * @return Boolean value true or false.
    */
   public Boolean isEmpty() {
-    if (numStack.size() == 0) { // Checks for empty stack.
+    if (opStack.size() == 0) { // Checks for empty stack.
       return true; // If empty return true.
     }
     return false; // if empty return false.
