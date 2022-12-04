@@ -35,7 +35,7 @@ class TestStrStack {
   void testPushThenPop() throws BadTypeException {
     Entry value = new Entry("test");
     strStack.push(value);
-    assertEquals(strStack.pop().getValue(), "test",
+    assertEquals(strStack.pop().getString(), "test",
         "Pushing then popping 'test' should return 'test'.");
     assertEquals(strStack.size(), 0, "After popping, the size should be 0.");
     assertThrows(EmptyStackException.class, () -> strStack.pop(),

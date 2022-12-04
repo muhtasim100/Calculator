@@ -28,7 +28,7 @@ class TestOpStack {
    */
   @Test
   void testPush() {
-    Entry value = new Entry("+");
+    Entry value = new Entry(Symbol.PLUS);
     opStack.push(value);
     assertEquals(opStack.size(), 1, "Pushes a value to the stack and checks size.");
   }
@@ -45,10 +45,10 @@ class TestOpStack {
    */
   @Test // Test 2
   void testPushThenPop() throws BadTypeException {
-    Entry value = new Entry("test");
+    Entry value = new Entry(Symbol.PLUS);
     opStack.push(value);
-    assertEquals(opStack.pop().getValue(), "+",
-        "Pushing then popping '+' should return '+'.");
+    assertEquals(opStack.pop().getSymbol(), Symbol.PLUS,
+        "Pushing then popping Symbol.PLUS should return Symbol.PLUS.");
     assertEquals(opStack.size(), 0, "After popping, the size should be 0.");
     assertThrows(EmptyStackException.class, () -> opStack.pop(), "Cannot pop from an empty stack.");
   }

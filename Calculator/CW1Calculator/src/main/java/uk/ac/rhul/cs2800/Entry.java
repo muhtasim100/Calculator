@@ -2,7 +2,7 @@
 package uk.ac.rhul.cs2800;
 
 /**
- * This is a Entry class with constructors and getters.
+ * This is a Entry class with constructors and getters for float, string and enumerations.
  *
  * @author muhtasim
  *
