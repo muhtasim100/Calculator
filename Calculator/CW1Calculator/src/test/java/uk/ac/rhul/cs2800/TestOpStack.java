@@ -14,11 +14,11 @@ import org.junit.jupiter.api.Test;
  */
 class TestOpStack {
 
-  private Stack oStack;
+  private Stack opStack;
 
   @BeforeEach
   void setUp() throws Exception {
-    oStack = new Stack();
+    opStack = new Stack();
 
   }
 
@@ -28,9 +28,9 @@ class TestOpStack {
    */
   @Test
   void testPush() {
-    Entry value = new Entry("test");
-    oStack.push(value);
-    assertEquals(oStack.size(), 1, "Pushes a value to the stack and checks size.");
+    Entry value = new Entry("+");
+    opStack.push(value);
+    assertEquals(opStack.size(), 1, "Pushes a value to the stack and checks size.");
   }
 
 
@@ -46,10 +46,29 @@ class TestOpStack {
   @Test // Test 2
   void testPushThenPop() throws BadTypeException {
     Entry value = new Entry("test");
-    oStack.push(value);
-    assertEquals(oStack.pop().getValue(), "test",
-        "Pushing then popping 'test' should return 'test'.");
-    assertEquals(oStack.size(), 0, "After popping, the size should be 0.");
-    assertThrows(EmptyStackException.class, () -> oStack.pop(), "Cannot pop from an empty stack.");
+    opStack.push(value);
+    assertEquals(opStack.pop().getValue(), "+",
+        "Pushing then popping '+' should return '+'.");
+    assertEquals(opStack.size(), 0, "After popping, the size should be 0.");
+    assertThrows(EmptyStackException.class, () -> opStack.pop(), "Cannot pop from an empty stack.");
+  }
+  
+  /**
+   * Test case for isEmpty method. Checks if the boolean value when the stack is empty is true.
+   */
+  @Test
+  void testisEmpty() {
+    assertEquals(opStack.isEmpty(), true, "Stack should be empty");
+  }
+
+  
+  /**
+   * Test case for isEmpty method. Checks if the boolean value when the stack is empty is true.
+   */
+  @Test
+  void testisNotEmpty() {
+    Entry value = new Entry("test");
+    opStack.push(value);
+    assertEquals(opStack.isEmpty(), false, "Stack should be empty");
   }
 }
