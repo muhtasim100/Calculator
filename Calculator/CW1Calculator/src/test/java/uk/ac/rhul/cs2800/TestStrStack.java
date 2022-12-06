@@ -1,15 +1,15 @@
 package uk.ac.rhul.cs2800;
 
 import static org.junit.jupiter.api.Assertions.*;
-
 import java.util.EmptyStackException;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-class TestNumStack {
+class TestStrStack {
 
-  private Stack numStack;
-
+  private Stack strStack;
+  
   /**
    * Creates a fresh new stack each time a test is undertaken. This ensures we don't have any
    * unexpected values in the test that may ruin the integrity of the test.
@@ -18,7 +18,7 @@ class TestNumStack {
    */
   @BeforeEach
   void setUp() throws Exception {
-    numStack = new Stack();
+    strStack = new Stack();
 
   }
 
@@ -27,9 +27,9 @@ class TestNumStack {
    */
   @Test
   void testPush() {
-    Entry value = new Entry(3);
-    numStack.push(value);
-    assertEquals(numStack.size(), 1, "Pushes a value to the stack and checks size.");
+    Entry value = new Entry("test");
+    strStack.push(value);
+    assertEquals(strStack.size(), 1, "Pushes a value to the stack and checks size.");
   }
 
 
@@ -42,32 +42,33 @@ class TestNumStack {
    */
   @Test // Test 2
   void testPushThenPop() throws BadTypeException {
-    Entry value = new Entry(7);
-    numStack.push(value);
-    assertEquals(numStack.pop().getValue(), 7, "Pushing then popping 7 should return 7.");
-    assertEquals(numStack.size(), 0, "After popping, the size should be 0.");
-    assertThrows(EmptyStackException.class, () -> numStack.pop(),
+    Entry value = new Entry("test");
+    strStack.push(value);
+    assertEquals(strStack.pop().getString(), "test",
+        "Pushing then popping 'test' should return 'test'.");
+    assertEquals(strStack.size(), 0, "After popping, the size should be 0.");
+    assertThrows(EmptyStackException.class, () -> strStack.pop(),
         "Cannot pop from an empty stack.");
   }
   
-
   /**
    * Tests isEmpty method which checks if stack is empty.
    */
-  @Test
+  @Test // Test 3
   void testIsEmpty() {
-    assertEquals(numStack.isEmpty(), true,
+    assertEquals(strStack.isEmpty(), true,
         "Checks empty stack with isEmpty() to get true return value.");
   }
   
   /**
    * Tests isEmpty method with a value in the stack.
    */
-  @Test // Test 4
+  @Test // Test 3
   void testIsNotEmpty() {
-    Entry value = new Entry(100);
-    numStack.push(value);
-    assertEquals(numStack.isEmpty(), false,
+    Entry value = new Entry("test");
+    strStack.push(value);
+    assertEquals(strStack.isEmpty(), false,
         "Checks non empty stack with isEmpty() to get false return value.");
   }
+  
 }
