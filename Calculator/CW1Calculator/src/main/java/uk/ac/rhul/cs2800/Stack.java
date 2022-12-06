@@ -11,15 +11,15 @@ import java.util.List;
  *
  */
 public class Stack {
-  
+
   private int size;
   public List<Entry> values;
-  
+
   public Stack() {
     this.size = 0;
     this.values = new ArrayList<>();
   }
-  
+
   /**
    * Checks size of stack.
    *
@@ -44,8 +44,13 @@ public class Stack {
       throw new EmptyStackException();
     }
     size = size - 1; // To return the value of the popped item.
+<<<<<<< HEAD
     return values.remove(values.size() - 1);
     
+=======
+    return values.get(size);
+
+>>>>>>> Update1
   }
 
   /**
@@ -61,11 +66,19 @@ public class Stack {
   }
 
   /**
+<<<<<<< HEAD
    * Checks if the stack is empty with the method size().
    *
    * @return true if empty or false if not.
    */
   public boolean isEmpty() {
+=======
+   * Boolean method to check if stack is empty.
+   *
+   * @return boolean value true or false depending on the stack.
+   */
+  public Boolean isEmpty() {
+>>>>>>> Update1
     if (values.size() == 0) { // Checks for empty stack.
       return true; // If empty return true.
     }

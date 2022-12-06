@@ -32,7 +32,6 @@ class TestNumStack {
     assertEquals(numStack.size(), 1, "Pushes a value to the stack and checks size.");
   }
 
-
   /**
    * First an entry is pushed into the stack using push() method. The entry is then popped to leave
    * the stack empty. We do this with the pop() method. We need an aeertThrows() to indicate that
@@ -70,4 +69,24 @@ class TestNumStack {
     assertEquals(numStack.isEmpty(), false,
         "Checks non empty stack with isEmpty() to get false return value.");
   }
+  
+  /**
+   * Test case for isEmpty method. Checks if the boolean value when the stack is empty is true.
+   */
+  @Test
+  void testisEmpty() {
+    assertEquals(nStack.isEmpty(), true, "Stack should be empty");
+  }
+
+  
+  /**
+   * Test case for isEmpty method. Checks if the boolean value when the stack is empty is true.
+   */
+  @Test
+  void testisNotEmpty() {
+    Entry value = new Entry("test");
+    nStack.push(value);
+    assertEquals(nStack.isEmpty(), false, "Stack should be empty");
+  }
+
 }

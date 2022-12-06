@@ -59,6 +59,7 @@ class TestOpStack {
     assertThrows(EmptyStackException.class, () -> opStack.pop(), "Cannot pop from an empty stack.");
   }
   
+<<<<<<< HEAD
 
   /**
    * Tests isEmpty method which checks if stack is empty.
@@ -78,5 +79,24 @@ class TestOpStack {
     opStack.push(value);
     assertEquals(opStack.isEmpty(), false,
         "Checks non empty stack with isEmpty() to get false return value.");
+=======
+  /**
+   * Test case for isEmpty method. Checks if the boolean value when the stack is empty is true.
+   */
+  @Test
+  void testisEmpty() {
+    assertEquals(opStack.isEmpty(), true, "Stack should be empty");
+  }
+
+  
+  /**
+   * Test case for isEmpty method. Checks if the boolean value when the stack is empty is true.
+   */
+  @Test
+  void testisNotEmpty() {
+    Entry value = new Entry("test");
+    opStack.push(value);
+    assertEquals(opStack.isEmpty(), false, "Stack should be empty");
+>>>>>>> Update1
   }
 }

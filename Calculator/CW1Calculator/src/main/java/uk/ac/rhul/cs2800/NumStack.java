@@ -39,8 +39,13 @@ public class NumStack {
     if (numStack.size() == 0) { // Checks for empty stack.
       throw new EmptyStackException();
     }
+<<<<<<< HEAD
     return numStack.values.remove(numStack.size() - 1);
 
+=======
+    
+    return numStack.values.get(numStack.size() - 1);
+>>>>>>> Update1
   }
 
   /**
