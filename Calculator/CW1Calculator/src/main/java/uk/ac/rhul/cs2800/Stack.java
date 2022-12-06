@@ -44,7 +44,7 @@ public class Stack {
       throw new EmptyStackException();
     }
     size = size - 1; // To return the value of the popped item.
-    return values.get(size);
+    return values.remove(values.size() - 1);
     
   }
 
@@ -58,6 +58,19 @@ public class Stack {
       throw new EmptyStackException();
     }
     return values.get(size - 1);
+  }
+
+  /**
+   * Checks if the stack is empty with the method size().
+   *
+   * @return true if empty or false if not.
+   */
+  public boolean isEmpty() {
+    if (values.size() == 0) { // Checks for empty stack.
+      return true; // If empty return true.
+    }
+
+    return false; // if empty return false.
   }
 
 }
