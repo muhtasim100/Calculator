@@ -11,9 +11,9 @@ class TestRevPolish {
    * To test the first development of RevPolishCalc which is to split a string of inputs and print
    * them to see if they are split correctly. A new Instance of RevPolishCalc called revPolish is
    * created to test this.
-   * 
-   * @throws BadTypeException
-   * @throws EmptyStackException
+   *
+   * @throws BadTypeException if type is wrong.
+   * @throws EmptyStackException if stack empty.
    */
   @Test
   void testSplitString() throws EmptyStackException, BadTypeException {
@@ -23,6 +23,12 @@ class TestRevPolish {
     assertEquals(8, eval);
   }
 
+  /**
+   * To test the Divide case in evaluate.
+   *
+   * @throws BadTypeException if type is wrong.
+   * @throws EmptyStackException if stack empty.
+   */
   @Test
   void testDivide() throws EmptyStackException, BadTypeException {
     RevPolishCalc revPolish = new RevPolishCalc();
@@ -31,4 +37,31 @@ class TestRevPolish {
     assertEquals(2, eval);
   }
 
+  /**
+   * To test the Multiply case in evaluate.
+   *
+   * @throws BadTypeException if type is wrong.
+   * @throws EmptyStackException if stack empty.
+   */
+  @Test
+  void testMultiply() throws EmptyStackException, BadTypeException {
+    RevPolishCalc revPolish = new RevPolishCalc();
+    String what = "10 5 x";
+    Float eval = revPolish.evaluate(what);
+    assertEquals(50, eval);
+  }
+  
+  /**
+   * To test the Minus case in evaluate.
+   *
+   * @throws BadTypeException if type is wrong.
+   * @throws EmptyStackException if stack empty.
+   */
+  @Test
+  void testMinus() throws EmptyStackException, BadTypeException {
+    RevPolishCalc revPolish = new RevPolishCalc();
+    String what = "30 2 -";
+    Float eval = revPolish.evaluate(what);
+    assertEquals(28, eval);
+  }
 }

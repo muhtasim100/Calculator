@@ -49,7 +49,10 @@ public class RevPolishCalc {
           numStack.push(numStack.pop() + numStack.pop());
           break;
         case "-":
-          numStack.push(numStack.pop() - numStack.pop());
+          pop1 = numStack.pop();
+          pop2 = numStack.pop();
+          // variables made to store stacks to make sure the order of the expression makes sense.
+          numStack.push(pop2 - pop1);
           break;
         default:
           numStack.push(Float.parseFloat(splitWhat[i]));
