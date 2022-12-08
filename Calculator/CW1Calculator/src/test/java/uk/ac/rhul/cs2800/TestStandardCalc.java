@@ -19,17 +19,18 @@ public class TestStandardCalc {
   }
 
   /**
-   * To test the first development of StandardCalc which is to change from infix to postfix. A new
-   * Instance of StandardCalc called standard is created to test this.
+   * To test StandardCalc which is to change from infix to postfix. A new Instance of StandardCalc
+   * called standard is created to test this. This test should convert from infix to postfix then
+   * use RevPolishCalc to evaluate the expression.
    *
    * @throws BadTypeException if type is wrong.
    * @throws EmptyStackException if stack empty.
    */
   @Test
-  void testInfixToPostfix() throws EmptyStackException, BadTypeException {
+  void testStandardToRev() throws EmptyStackException, BadTypeException {
     StandardCalc standard = new StandardCalc();
-    String what = "3 + 5";
-    String eval = standard.evaluate(what);
-    assertEquals("3 5 +", eval);
+    String what = "5 - 3";
+    float eval = standard.evaluate(what);
+    assertEquals(2, eval);
   }
 }

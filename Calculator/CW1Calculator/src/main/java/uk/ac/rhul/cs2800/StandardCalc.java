@@ -10,7 +10,7 @@ import java.util.EmptyStackException;
 public class StandardCalc {
   public OpStack values;
   OpStack op = new OpStack();
-  public RevPolishCalc rpCalc;
+  RevPolishCalc rpCalc = new RevPolishCalc();
 
   /**
    * Method evaluate splits the string input by the user and pushes numbers into the stack. Then
@@ -22,7 +22,7 @@ public class StandardCalc {
    * @throws EmptyStackException if stack is empty.
    */
 
-  public String evaluate(String what) throws EmptyStackException, BadTypeException {
+  public float evaluate(String what) throws EmptyStackException, BadTypeException {
     String[] splitWhat = what.split(" ");
     String expression = "";
     int stringSize = splitWhat.length;
@@ -46,6 +46,7 @@ public class StandardCalc {
           break;
       }
     }
-    return expression + op.pop();
+    expression = expression + op.pop();
+    return rpCalc.evaluate(expression);
   }
 }
