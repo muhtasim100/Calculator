@@ -40,15 +40,23 @@ public class StandardCalc {
         case "-":
           op.push(Symbol.MINUS);
           break;
-        case "(":
-          op.push(Symbol.LEFTBRACKET);
-          break;
-        case ")":
-          if (op.opStack.top().getSymbol() != Symbol.LEFTBRACKET && op.opStack.isEmpty()) {
-            op.pop();
-          }
-          break;
+//        case "(":
+//          op.push(Symbol.LEFTBRACKET);
+//          break;
+//        case ")":
+//          if (op.opStack.top().getSymbol() != Symbol.LEFTBRACKET && op.opStack.isEmpty()) {
+//            op.pop();
+//          }
+//          break;
         default:
+          if (splitWhat[i] == "(") {
+            op.push(Symbol.LEFTBRACKET);
+          }
+          if (splitWhat[i] == ")") {
+            for (int x = 0; x < stringSize; x++) {
+              op.pop();
+            }
+          }
           //op.push(Float.parseFloat(splitWhat[i])); // Convert to float from string.
           expression += splitWhat[i] + " ";
           break;
