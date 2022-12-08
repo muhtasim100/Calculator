@@ -1,19 +1,18 @@
 package uk.ac.rhul.cs2800;
 
-<<<<<<< HEAD
-/**
- * View class for the GUI of the calculator project.
- *
- * @author muhtasim
- *
- */
-public class ViewInterface {
-
-=======
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+
+
+/**
+ * View class for the GUI of the calculator project. Used Demo video by lecturer Dave Cohen and
+ * CS2800 code examples folder.
+ *
+ * @author Dave Cohen
+ *
+ */
 
 public class ViewInterface {
 
@@ -27,6 +26,4 @@ public class ViewInterface {
   void isPressed(ActionEvent event) {
     label.setText("Button has been pressed");
   }
-
->>>>>>> Update1
 }

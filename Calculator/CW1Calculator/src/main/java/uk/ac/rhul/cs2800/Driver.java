@@ -19,6 +19,11 @@ public class Driver extends Application {
     launch(args);
   }
 
+  /**
+   * Used from demo video by lecturer Dave Cohen.
+   *
+   * @author Dave Cohen
+   */
   @Override
   public void start(Stage primaryStage) throws Exception {
     Parent parent = FXMLLoader.load(getClass().getClassLoader().getResource("ViewInterface.fxml"));

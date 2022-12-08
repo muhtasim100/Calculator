@@ -3,21 +3,23 @@ package uk.ac.rhul.cs2800;
 import java.util.EmptyStackException;
 
 /**
- * NumStack class.
+ * NumStack class. Works as a facade class for RevPolishCalc.
  *
  * @author muhtasim
  *
  */
 public class NumStack {
   public Stack numStack;
+  public int size;
+
 
   /**
    * Constructor for numStack.
    *
-   * @param numStack is a new Stack.
    */
-  public NumStack(Stack numStack) {
+  public NumStack() {
     this.numStack = new Stack();
+    this.size = 0;
   }
 
   /**
@@ -28,24 +30,26 @@ public class NumStack {
   public void push(float i) {
     Entry values = new Entry(i);
     numStack.push(values);
+    this.size++;
+    
+    
   }
 
   /**
    * Returns popped value if the stack is not empty.
    *
    * @return value with popped value from stack.
+   * @throws BadTypeException 
    */
-  public Entry pop() {
-    if (numStack.size() == 0) { // Checks for empty stack.
+  public float pop() throws EmptyStackException, BadTypeException {
+    //Entry popIndex;
+    
+    if (numStack.size == 0) { // Checks for empty stack.
       throw new EmptyStackException();
     }
-<<<<<<< HEAD
-    return numStack.values.remove(numStack.size() - 1);
-
-=======
-    
-    return numStack.values.get(numStack.size() - 1);
->>>>>>> Update1
+    //popIndex = numStack.entries.remove(this.size - 1);
+    //this.numStack.pop();
+    return this.numStack.pop().getValue();
   }
 
   /**
@@ -58,5 +62,9 @@ public class NumStack {
       return true; // If empty return true.
     }
     return false; // if empty return false.
+  }
+  
+  public int size() {
+    return size;
   }
 }

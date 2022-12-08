@@ -40,7 +40,7 @@ public class OpStack {
     if (opStack.size() == 0) { // Checks for empty stack.
       throw new EmptyStackException();
     }
-    return opStack.values.remove(opStack.size() - 1);
+    return opStack.entries.remove(opStack.size() - 1);
 
   }
 

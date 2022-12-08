@@ -51,18 +51,9 @@ class TestNumStack {
   
 
   /**
-   * Tests isEmpty method which checks if stack is empty.
-   */
-  @Test
-  void testIsEmpty() {
-    assertEquals(numStack.isEmpty(), true,
-        "Checks empty stack with isEmpty() to get true return value.");
-  }
-  
-  /**
    * Tests isEmpty method with a value in the stack.
    */
-  @Test // Test 4
+  @Test // Test 3
   void testIsNotEmpty() {
     Entry value = new Entry(100);
     numStack.push(value);
@@ -75,18 +66,11 @@ class TestNumStack {
    */
   @Test
   void testisEmpty() {
-    assertEquals(nStack.isEmpty(), true, "Stack should be empty");
+    assertEquals(numStack.isEmpty(), true, "Stack should be empty");
   }
+
+      
+  
+}
 
   
-  /**
-   * Test case for isEmpty method. Checks if the boolean value when the stack is empty is true.
-   */
-  @Test
-  void testisNotEmpty() {
-    Entry value = new Entry("test");
-    nStack.push(value);
-    assertEquals(nStack.isEmpty(), false, "Stack should be empty");
-  }
-
-}
