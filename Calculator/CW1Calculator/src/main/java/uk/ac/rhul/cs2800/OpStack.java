@@ -10,15 +10,16 @@ import java.util.EmptyStackException;
  */
 public class OpStack {
   public Stack opStack;
+  public int size;
   
   /**
    * Constructor for opStack.
    *
-   * @param opStack is a new Stack.
    */
 
-  public OpStack(Stack opStack) {
+  public OpStack() {
     this.opStack = new Stack();
+    this.size = 0;
   }
   
   /**
@@ -29,18 +30,20 @@ public class OpStack {
   public void push(Symbol i) {
     Entry values = new Entry(i);
     opStack.push(values);
+    this.size++;
   }
 
   /**
    * Returns popped value if the stack is not empty.
    *
    * @return value with popped value from stack.
+   * @throws BadTypeException if wrong type.
    */
-  public Entry pop() {
+  public Symbol pop() throws BadTypeException {
     if (opStack.size() == 0) { // Checks for empty stack.
       throw new EmptyStackException();
     }
-    return opStack.entries.remove(opStack.size() - 1);
+    return this.opStack.pop().getSymbol();
 
   }
 
@@ -54,5 +57,9 @@ public class OpStack {
       return true; // If empty return true.
     }
     return false; // if empty return false.
+  }
+  
+  public int size() {
+    return size;
   }
 }
