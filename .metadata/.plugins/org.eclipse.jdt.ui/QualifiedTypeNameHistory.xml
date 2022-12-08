@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="javafx.scene.layout.Pane"/>
+    <fullyQualifiedTypeName name="uk.ac.rhul.cs2800.Type"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeEach"/>
+    <fullyQualifiedTypeName name="uk.ac.rhul.cs2800.Symbol"/>
+    <fullyQualifiedTypeName name="uk.ac.rhul.cs2800.RevPolishCalc"/>
 </qualifiedTypeNameHistroy>
