@@ -1,15 +1,11 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>uk.ac.rhul.cs2800</groupId>
   <artifactId>CW1Calculator</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>CS2800 Calculator</name>
   <description>Creating a calculator using Eclipse and Maven.</description>
-  
   <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
@@ -25,12 +21,12 @@
        <dependency>
 			<groupId>org.openjfx</groupId>
 			<artifactId>javafx-controls</artifactId>
-			<version>19</version>
+			<version>13</version>
 		</dependency>
 		<dependency>
 			<groupId>org.openjfx</groupId>
 			<artifactId>javafx-fxml</artifactId>
-			<version>19</version>
+			<version>13</version>
 		</dependency>
     </dependencies>
     
@@ -48,38 +44,6 @@
         </includes>
       </resource>
     </resources>
-<<<<<<< HEAD
-    
-    <plugins>
-    
-    <plugin>
-				<groupId>org.openjfx</groupId>
-				<artifactId>javafx-maven-plugin</artifactId>
-				<version>0.0.4</version>
-				<configuration>
-					<mainClass>uk.ac.rhul.cs2800.Driver</mainClass>
-				</configuration>
-				<executions>
-					<execution>
-						<!-- Configuration for debugging -->
-						<id>debug</id>
-						<configuration>
-							<options>
-								<option>-agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:8001</option>
-							</options>
-						</configuration>
-					</execution>
-				</executions>
-	</plugin>
-				
-	<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-surefire-plugin</artifactId>
-				<version>3.0.0-M5</version>
-	</plugin>
-      
-    <plugin>
-=======
     <plugins>
     <plugin>
     <groupId>org.apache.maven.plugins</groupId>
@@ -106,7 +70,6 @@
         </executions>
       </plugin>
       <plugin>
->>>>>>> Update1
         <artifactId>maven-assembly-plugin</artifactId>
         <version>3.3.0</version>
         <configuration>
@@ -115,11 +78,7 @@
           </descriptorRefs>
           <archive>
             <manifest>
-<<<<<<< HEAD
-              <mainClass>uk.ac.rhul.cs2800.Driver</mainClass>
-=======
               <mainClass>CalcController</mainClass>
->>>>>>> Update1
             </manifest>
           </archive>
         </configuration>
@@ -132,37 +91,11 @@
             </goals>
           </execution>
         </executions>
-<<<<<<< HEAD
-    </plugin>
-      
-    <plugin>
-      	<groupId>org.apache.maven.plugins</groupId>
-      	<artifactId>maven-surefire-plugin</artifactId>
-      	<version>3.2.0</version>
-    </plugin>
-      
-    <plugin>
-				<groupId> org.apache.maven.plugins</groupId>
-				<artifactId>maven-checkstyle-plugin</artifactId>
-				<version>3.2.0</version>
-				<configuration>
-					<configLocation>GooglePlus.xml</configLocation>
-					<encoding>UTF-8</encoding>
-					<consoleOutput> true </consoleOutput>
-					<failsOnError>true</failsOnError>
-					<violationSeverity> warning</violationSeverity>
-					<linkXRef> false </linkXRef>
-				</configuration>
-	</plugin>
-    </plugins>
-
-  </build>
-=======
       </plugin>
     </plugins>
        
     </build>
->>>>>>> Update1
 </project>
+  
   
   

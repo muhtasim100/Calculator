@@ -39,7 +39,7 @@ public class StrStack {
     if (strStack.size() == 0) { // Checks for empty stack.
       throw new EmptyStackException();
     }
-    return strStack.values.remove(strStack.size() - 1);
+    return strStack.entries.remove(strStack.size() - 1);
 
   }
 
