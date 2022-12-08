@@ -55,7 +55,7 @@ public class RevPolishCalc {
           numStack.push(pop2 - pop1);
           break;
         default:
-          numStack.push(Float.parseFloat(splitWhat[i]));
+          numStack.push(Float.parseFloat(splitWhat[i])); // Convert to float from string.
           break;
       }
     }

@@ -3,9 +3,14 @@ package uk.ac.rhul.cs2800;
 import static org.junit.jupiter.api.Assertions.*;
 
 import java.util.EmptyStackException;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 class TestRevPolish {
+  @BeforeEach
+  void setup() throws Exception {
+    RevPolishCalc revPolish = new RevPolishCalc();
+  }
 
   /**
    * To test the first development of RevPolishCalc which is to split a string of inputs and print
@@ -50,7 +55,7 @@ class TestRevPolish {
     Float eval = revPolish.evaluate(what);
     assertEquals(50, eval);
   }
-  
+
   /**
    * To test the Minus case in evaluate.
    *
@@ -64,4 +69,23 @@ class TestRevPolish {
     Float eval = revPolish.evaluate(what);
     assertEquals(28, eval);
   }
+
+  /**
+   * Try and catch statements for evaluate method when provided with an empty stack.
+   *
+   * @throws EmptyStackException stack is empty.
+   */
+  @Test
+  void testEmptyStackException() throws EmptyStackException {
+    try {
+      RevPolishCalc revPolish = new RevPolishCalc();
+      String what = " ";
+      Float eval = revPolish.evaluate(what);
+    } catch (EmptyStackException e) {
+      System.out.println(e);
+    } catch (BadTypeException e) {
+      System.out.println(e);
+    }
+  }
+  
 }
