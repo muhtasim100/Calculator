@@ -40,6 +40,14 @@ public class StandardCalc {
         case "-":
           op.push(Symbol.MINUS);
           break;
+        case "(":
+          op.push(Symbol.LEFTBRACKET);
+          break;
+        case ")":
+          if (op.opStack.top().getSymbol() != Symbol.LEFTBRACKET && op.opStack.isEmpty()) {
+            op.pop();
+          }
+          break;
         default:
           //op.push(Float.parseFloat(splitWhat[i])); // Convert to float from string.
           expression += splitWhat[i] + " ";
@@ -47,6 +55,7 @@ public class StandardCalc {
       }
     }
     expression = expression + op.pop();
+    System.out.println(expression);
     return rpCalc.evaluate(expression);
   }
 }

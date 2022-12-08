@@ -29,8 +29,16 @@ public class TestStandardCalc {
   @Test
   void testStandardToRev() throws EmptyStackException, BadTypeException {
     StandardCalc standard = new StandardCalc();
-    String what = "5 - 3";
+    String what = "7 + 8";
     float eval = standard.evaluate(what);
-    assertEquals(2, eval);
+    assertEquals(15, eval);
+  }
+  
+  @Test
+  void testBrackets() throws EmptyStackException, BadTypeException {
+    StandardCalc standard = new StandardCalc();
+    String what = "(7 + 8)";
+    float eval = standard.evaluate(what);
+    assertEquals(15, eval);
   }
 }

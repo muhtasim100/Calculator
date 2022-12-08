@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
 
-<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" type="Pane" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uk.ac.rhul.cs2800.ViewInterface">
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@ViewInterface.css" type="Pane" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uk.ac.rhul.cs2800.ViewInterface">
    <children>
-      <Button layoutX="245.0" layoutY="296.0" mnemonicParsing="false" prefWidth="111.0" text="Calculate" />
+      <Button layoutX="245.0" layoutY="272.0" mnemonicParsing="false" prefWidth="111.0" text="Calculate" />
+      <TextField alignment="CENTER" layoutX="200.0" layoutY="227.0" prefHeight="26.0" prefWidth="200.0" promptText="Enter expression:" />
+      <TextArea layoutX="36.0" layoutY="39.0" prefHeight="78.0" prefWidth="528.0" text="CS2800 CALCULATOR">
+         <font>
+            <Font size="46.0" />
+         </font>
+      </TextArea>
    </children>
 </fx:root>
