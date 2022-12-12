@@ -39,7 +39,7 @@ public class NumStack {
    * Returns popped value if the stack is not empty.
    *
    * @return value with popped value from stack.
-   * @throws BadTypeException 
+   * @throws BadTypeException if wrong type.
    */
   public float pop() throws EmptyStackException, BadTypeException {
     //Entry popIndex;

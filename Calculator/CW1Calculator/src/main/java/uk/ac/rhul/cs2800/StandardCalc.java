@@ -58,6 +58,7 @@ public class StandardCalc {
           break;
       }
     }
+// expression made from string of numbers and symbols popped from op.
     expression = expression + op.pop();
     System.out.println(expression);
     return rpCalc.evaluate(expression);
