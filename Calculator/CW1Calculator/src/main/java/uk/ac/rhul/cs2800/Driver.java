@@ -2,8 +2,8 @@ package uk.ac.rhul.cs2800;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
 /**
@@ -26,8 +26,8 @@ public class Driver extends Application {
    */
   @Override
   public void start(Stage primaryStage) throws Exception {
-    Parent parent = FXMLLoader.load(getClass().getClassLoader().getResource("ViewInterface.fxml"));
-    Scene scene = new Scene(parent, 800, 500);
+    Pane pane = FXMLLoader.load(getClass().getClassLoader().getResource("ViewInterface.fxml"));
+    Scene scene = new Scene(pane, 600, 400);
     primaryStage.setScene(scene);
     primaryStage.show();
   }
