@@ -13,9 +13,11 @@ import org.junit.jupiter.api.Test;
  *
  */
 class TestRevPolish {
+  private RevPolishCalc revPolish;
+  
   @BeforeEach
   void setup() throws Exception {
-    RevPolishCalc revPolish = new RevPolishCalc();
+    revPolish = new RevPolishCalc();
   }
 
   /**
@@ -28,10 +30,9 @@ class TestRevPolish {
    */
   @Test
   void testSplitString() throws EmptyStackException, BadTypeException {
-    RevPolishCalc revPolish = new RevPolishCalc();
     String what = "3 5 +";
     Float eval = revPolish.evaluate(what);
-    assertEquals(8, eval);
+    assertEquals(8, eval); // Checking if return is 8.
   }
 
   /**
@@ -42,7 +43,6 @@ class TestRevPolish {
    */
   @Test
   void testDivide() throws EmptyStackException, BadTypeException {
-    RevPolishCalc revPolish = new RevPolishCalc();
     String what = "10 5 /";
     Float eval = revPolish.evaluate(what);
     assertEquals(2, eval);
@@ -56,7 +56,6 @@ class TestRevPolish {
    */
   @Test
   void testMultiply() throws EmptyStackException, BadTypeException {
-    RevPolishCalc revPolish = new RevPolishCalc();
     String what = "10 5 x";
     Float eval = revPolish.evaluate(what);
     assertEquals(50, eval);
@@ -70,7 +69,6 @@ class TestRevPolish {
    */
   @Test
   void testMinus() throws EmptyStackException, BadTypeException {
-    RevPolishCalc revPolish = new RevPolishCalc();
     String what = "30 2 -";
     Float eval = revPolish.evaluate(what);
     assertEquals(28, eval);
@@ -84,11 +82,10 @@ class TestRevPolish {
   @Test
   void testEmptyStackException() throws EmptyStackException {
     try {
-      RevPolishCalc revPolish = new RevPolishCalc();
       String what = " ";
       Float eval = revPolish.evaluate(what);
     } catch (EmptyStackException e) {
-      System.out.println(e);
+      System.out.println(e); // Should print EmptyStackException.
     } catch (BadTypeException e) {
       System.out.println(e);
     }
