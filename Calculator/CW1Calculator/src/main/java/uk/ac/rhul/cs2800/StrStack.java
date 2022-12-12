@@ -10,14 +10,15 @@ import java.util.EmptyStackException;
  */
 public class StrStack {
   public Stack strStack;
+  public int size;
 
   /**
    * Constructor for strStack.
    *
-   * @param strStack is a new Stack.
    */
-  public StrStack(Stack strStack) {
+  public StrStack() {
     this.strStack = new Stack();
+    this.size = 0;
   }
 
   /**
@@ -28,18 +29,20 @@ public class StrStack {
   public void push(String str) {
     Entry values = new Entry(str);
     strStack.push(values);
+    this.size++;
   }
 
   /**
    * Returns popped value if the stack is not empty.
    *
    * @return value with popped value from stack.
+   * @throws BadTypeException if type wrong.
    */
-  public Entry pop() {
+  public String pop() throws BadTypeException {
     if (strStack.size() == 0) { // Checks for empty stack.
       throw new EmptyStackException();
     }
-    return strStack.entries.remove(strStack.size() - 1);
+    return this.strStack.pop().getString();
 
   }
 
@@ -56,4 +59,7 @@ public class StrStack {
     return false; // if empty return false.
   }
 
+  public int size() {
+    return size;
+  }
 }

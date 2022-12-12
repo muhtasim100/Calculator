@@ -3542,3 +3542,833 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag nam
 2022-12-08 13:23:36,560 [Worker-205: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
 2022-12-08 13:23:36,564 [Worker-205: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2022-12-08 13:23:36,565 [Worker-205: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-08 22:10:52,818 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-12-08 22:11:44,470 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.0.0-M5/maven-surefire-plugin-3.0.0-M5.jar
+2022-12-08 22:11:44,550 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.0.0-M5/maven-surefire-plugin-3.0.0-M5.jar
+2022-12-08 22:11:44,802 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/3.3.0/maven-assembly-plugin-3.3.0.jar
+2022-12-08 22:11:44,888 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/3.3.0/maven-assembly-plugin-3.3.0.jar
+2022-12-08 22:11:52,740 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: uk.ac.rhul.cs2800:CW1Calculator:0.0.1-SNAPSHOT @ /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/pom.xml.
+2022-12-08 22:11:52,797 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.4.0/junit-jupiter-engine-5.4.0.pom
+2022-12-08 22:11:52,826 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.4.0/junit-jupiter-engine-5.4.0.pom
+2022-12-08 22:11:52,911 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.pom
+2022-12-08 22:11:52,967 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.pom
+2022-12-08 22:11:53,023 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.4.0/junit-platform-engine-1.4.0.pom
+2022-12-08 22:11:53,057 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.4.0/junit-platform-engine-1.4.0.pom
+2022-12-08 22:11:53,155 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.pom
+2022-12-08 22:11:53,210 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.pom
+2022-12-08 22:11:53,295 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.4.0/junit-platform-commons-1.4.0.pom
+2022-12-08 22:11:53,347 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.4.0/junit-platform-commons-1.4.0.pom
+2022-12-08 22:11:53,430 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.4.0/junit-jupiter-api-5.4.0.pom
+2022-12-08 22:11:53,461 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.4.0/junit-jupiter-api-5.4.0.pom
+2022-12-08 22:11:53,536 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/openjfx/javafx-controls/13/javafx-controls-13.pom
+2022-12-08 22:11:53,581 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/openjfx/javafx-controls/13/javafx-controls-13.pom
+2022-12-08 22:11:53,687 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/openjfx/javafx/13/javafx-13.pom
+2022-12-08 22:11:53,728 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/openjfx/javafx/13/javafx-13.pom
+2022-12-08 22:11:53,781 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/openjfx/javafx-graphics/13/javafx-graphics-13.pom
+2022-12-08 22:11:53,825 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/openjfx/javafx-graphics/13/javafx-graphics-13.pom
+2022-12-08 22:11:53,891 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/openjfx/javafx-base/13/javafx-base-13.pom
+2022-12-08 22:11:53,936 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/openjfx/javafx-base/13/javafx-base-13.pom
+2022-12-08 22:11:53,995 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/openjfx/javafx-fxml/13/javafx-fxml-13.pom
+2022-12-08 22:11:54,040 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/openjfx/javafx-fxml/13/javafx-fxml-13.pom
+2022-12-08 22:11:54,133 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar
+2022-12-08 22:11:54,135 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar
+2022-12-08 22:11:54,137 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.4.0/junit-platform-commons-1.4.0.jar
+2022-12-08 22:11:54,139 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.4.0/junit-platform-engine-1.4.0.jar
+2022-12-08 22:11:54,151 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.4.0/junit-jupiter-engine-5.4.0.jar
+2022-12-08 22:11:54,199 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar
+2022-12-08 22:11:54,208 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.4.0/junit-jupiter-api-5.4.0.jar
+2022-12-08 22:11:54,221 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar
+2022-12-08 22:11:54,230 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/openjfx/javafx-controls/13/javafx-controls-13.jar
+2022-12-08 22:11:54,231 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.4.0/junit-platform-commons-1.4.0.jar
+2022-12-08 22:11:54,233 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.4.0/junit-platform-engine-1.4.0.jar
+2022-12-08 22:11:54,240 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/openjfx/javafx-graphics/13/javafx-graphics-13.jar
+2022-12-08 22:11:54,243 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/openjfx/javafx-controls/13/javafx-controls-13-linux.jar
+2022-12-08 22:11:54,259 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.4.0/junit-jupiter-api-5.4.0.jar
+2022-12-08 22:11:54,326 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/openjfx/javafx-graphics/13/javafx-graphics-13-linux.jar
+2022-12-08 22:11:54,363 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/openjfx/javafx-controls/13/javafx-controls-13.jar
+2022-12-08 22:11:54,364 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/openjfx/javafx-graphics/13/javafx-graphics-13.jar
+2022-12-08 22:11:54,364 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.4.0/junit-jupiter-engine-5.4.0.jar
+2022-12-08 22:11:54,465 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/openjfx/javafx-base/13/javafx-base-13.jar
+2022-12-08 22:11:54,467 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/openjfx/javafx-fxml/13/javafx-fxml-13.jar
+2022-12-08 22:11:54,470 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/openjfx/javafx-base/13/javafx-base-13-linux.jar
+2022-12-08 22:11:54,579 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/openjfx/javafx-controls/13/javafx-controls-13-linux.jar
+2022-12-08 22:11:54,579 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/openjfx/javafx-base/13/javafx-base-13.jar
+2022-12-08 22:11:54,593 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/openjfx/javafx-fxml/13/javafx-fxml-13.jar
+2022-12-08 22:11:54,620 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/openjfx/javafx-fxml/13/javafx-fxml-13-linux.jar
+2022-12-08 22:11:54,648 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/openjfx/javafx-base/13/javafx-base-13-linux.jar
+2022-12-08 22:11:54,661 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/openjfx/javafx-fxml/13/javafx-fxml-13-linux.jar
+2022-12-08 22:11:54,688 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/openjfx/javafx-graphics/13/javafx-graphics-13-linux.jar
+2022-12-08 22:11:56,960 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.4.0/junit-jupiter-engine-5.4.0-sources.jar
+2022-12-08 22:11:56,972 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CW1Calculator/src/main/java
+2022-12-08 22:11:56,973 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /CW1Calculator/src/main/java overlaps with sources folder /CW1Calculator/src/main/java
+2022-12-08 22:11:56,975 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CW1Calculator/src/main/resources
+2022-12-08 22:11:56,978 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CW1Calculator/src/test/java
+2022-12-08 22:11:57,065 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.4.0/junit-jupiter-engine-5.4.0-sources.jar
+2022-12-08 22:11:57,094 [Worker-47: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.jupiter:junit-jupiter-engine:5.4.0
+2022-12-08 22:11:57,106 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 14 sec
+2022-12-08 22:11:57,183 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0-sources.jar
+2022-12-08 22:11:57,232 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0-sources.jar
+2022-12-08 22:11:57,318 [Worker-47: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apiguardian:apiguardian-api:1.0.0
+2022-12-08 22:11:57,365 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.4.0/junit-platform-engine-1.4.0-sources.jar
+2022-12-08 22:11:57,411 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.4.0/junit-platform-engine-1.4.0-sources.jar
+2022-12-08 22:11:57,459 [Worker-47: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.platform:junit-platform-engine:1.4.0
+2022-12-08 22:11:57,495 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1-sources.jar
+2022-12-08 22:11:57,569 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1-sources.jar
+2022-12-08 22:11:57,597 [Worker-47: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.opentest4j:opentest4j:1.1.1
+2022-12-08 22:11:57,639 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.4.0/junit-platform-commons-1.4.0-sources.jar
+2022-12-08 22:11:57,675 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.4.0/junit-platform-commons-1.4.0-sources.jar
+2022-12-08 22:11:57,712 [Worker-47: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.platform:junit-platform-commons:1.4.0
+2022-12-08 22:11:57,744 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.4.0/junit-jupiter-api-5.4.0-sources.jar
+2022-12-08 22:11:57,795 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.4.0/junit-jupiter-api-5.4.0-sources.jar
+2022-12-08 22:11:57,822 [Worker-47: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.jupiter:junit-jupiter-api:5.4.0
+2022-12-08 22:11:57,859 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/openjfx/javafx-controls/13/javafx-controls-13-sources.jar
+2022-12-08 22:11:57,973 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/openjfx/javafx-controls/13/javafx-controls-13-sources.jar
+2022-12-08 22:11:58,004 [Worker-47: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.openjfx:javafx-controls:13
+2022-12-08 22:11:58,020 [Worker-47: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.openjfx:javafx-controls:13:linux
+2022-12-08 22:11:58,061 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/openjfx/javafx-graphics/13/javafx-graphics-13-sources.jar
+2022-12-08 22:11:58,413 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/openjfx/javafx-graphics/13/javafx-graphics-13-sources.jar
+2022-12-08 22:11:58,448 [Worker-47: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.openjfx:javafx-graphics:13
+2022-12-08 22:11:58,462 [Worker-47: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.openjfx:javafx-graphics:13:linux
+2022-12-08 22:11:58,492 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/openjfx/javafx-base/13/javafx-base-13-sources.jar
+2022-12-08 22:11:58,567 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/openjfx/javafx-base/13/javafx-base-13-sources.jar
+2022-12-08 22:11:58,595 [Worker-47: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.openjfx:javafx-base:13
+2022-12-08 22:11:58,609 [Worker-47: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.openjfx:javafx-base:13:linux
+2022-12-08 22:11:58,644 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/openjfx/javafx-fxml/13/javafx-fxml-13-sources.jar
+2022-12-08 22:11:58,708 [Worker-47: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/openjfx/javafx-fxml/13/javafx-fxml-13-sources.jar
+2022-12-08 22:11:58,759 [Worker-47: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.openjfx:javafx-fxml:13
+2022-12-08 22:11:58,774 [Worker-47: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.openjfx:javafx-fxml:13:linux
+2022-12-08 22:12:00,443 [Worker-92: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 22:12:00,454 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-08 22:12:00,580 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-08 22:12:00,612 [Worker-92: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 22:12:00,617 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-08 22:12:13,239 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 22:12:13,246 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-08 22:12:13,246 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-08 22:12:13,248 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 22:12:13,254 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-08 23:03:07,787 [Worker-117: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator
+2022-12-08 23:03:07,809 [Worker-117: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean compile javafx:run
+2022-12-08 23:05:26,620 [Worker-119: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: uk.ac.rhul.cs2800:CW1Calculator:0.0.1-SNAPSHOT @ /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/pom.xml.
+2022-12-08 23:05:27,192 [Worker-119: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:05:27,225 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-08 23:05:27,227 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-08 23:05:27,230 [Worker-119: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:05:27,236 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-08 23:05:30,637 [Worker-119: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-12-08 23:05:31,969 [Worker-119: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: uk.ac.rhul.cs2800:CW1Calculator:0.0.1-SNAPSHOT @ /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/pom.xml.
+2022-12-08 23:05:32,297 [Worker-119: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CW1Calculator/src/main/java
+2022-12-08 23:05:32,300 [Worker-119: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /CW1Calculator/src/main/java overlaps with sources folder /CW1Calculator/src/main/java
+2022-12-08 23:05:32,303 [Worker-119: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CW1Calculator/src/main/resources
+2022-12-08 23:05:32,306 [Worker-119: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CW1Calculator/src/test/java
+2022-12-08 23:05:32,551 [Worker-119: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-12-08 23:05:34,589 [Worker-116: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:05:34,594 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-08 23:05:34,695 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-08 23:05:34,710 [Worker-116: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:05:34,717 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-08 23:08:38,374 [Worker-120: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-12-08 23:08:40,483 [Worker-120: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: uk.ac.rhul.cs2800:CW1Calculator:0.0.1-SNAPSHOT @ /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/pom.xml.
+2022-12-08 23:08:41,046 [Worker-120: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CW1Calculator/src/main/java
+2022-12-08 23:08:41,049 [Worker-120: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /CW1Calculator/src/main/java overlaps with sources folder /CW1Calculator/src/main/java
+2022-12-08 23:08:41,051 [Worker-120: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CW1Calculator/src/main/resources
+2022-12-08 23:08:41,055 [Worker-120: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CW1Calculator/src/test/java
+2022-12-08 23:08:41,863 [Worker-120: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2022-12-08 23:08:42,750 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:08:42,758 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-08 23:08:42,879 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-08 23:08:42,895 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:08:42,901 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-08 23:08:43,298 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:08:43,315 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-08 23:08:43,430 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-08 23:08:43,460 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:08:43,465 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-08 23:08:43,921 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:08:43,934 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-08 23:08:44,045 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-08 23:08:44,061 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:08:44,067 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-08 23:08:44,491 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:08:44,505 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-08 23:08:44,602 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-08 23:08:44,617 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:08:44,622 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-08 23:08:45,039 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:08:45,051 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-08 23:08:45,149 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-08 23:08:45,163 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:08:45,170 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-08 23:08:45,585 [Worker-119: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:08:45,597 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-08 23:08:45,697 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-08 23:08:45,715 [Worker-119: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:08:45,719 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-08 23:08:46,145 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:08:46,158 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-08 23:08:46,272 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-08 23:08:46,286 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:08:46,290 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-08 23:08:46,675 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:08:46,689 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-08 23:08:46,799 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-08 23:08:46,816 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:08:46,822 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-08 23:08:47,226 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:08:47,238 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-08 23:08:47,348 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-08 23:08:47,364 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:08:47,370 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-08 23:08:47,798 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:08:47,811 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-08 23:08:47,919 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-08 23:08:47,939 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:08:47,944 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-08 23:08:48,334 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:08:48,347 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-08 23:08:48,449 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-08 23:08:48,465 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:08:48,469 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-08 23:09:26,822 [Worker-119: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:09:26,836 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-08 23:09:26,965 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-08 23:09:26,991 [Worker-119: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:09:26,995 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-08 23:09:50,887 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-12-08 23:09:56,840 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:09:56,850 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-08 23:09:56,953 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-08 23:09:56,971 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:09:56,977 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-08 23:11:02,068 [Worker-45: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-12-08 23:11:04,658 [Worker-45: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: uk.ac.rhul.cs2800:CW1Calculator:0.0.1-SNAPSHOT @ /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/pom.xml.
+2022-12-08 23:11:06,452 [Worker-45: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CW1Calculator/src/main/java
+2022-12-08 23:11:06,453 [Worker-45: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /CW1Calculator/src/main/java overlaps with sources folder /CW1Calculator/src/main/java
+2022-12-08 23:11:06,453 [Worker-45: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CW1Calculator/src/main/resources
+2022-12-08 23:11:06,456 [Worker-45: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CW1Calculator/src/test/java
+2022-12-08 23:11:07,223 [Worker-45: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 5 sec
+2022-12-08 23:11:09,015 [Worker-74: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:11:09,021 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-08 23:11:09,165 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-08 23:11:09,183 [Worker-74: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:11:09,187 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-08 23:12:08,643 [Worker-74: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:12:08,656 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-08 23:12:08,658 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-08 23:12:08,663 [Worker-74: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:12:08,672 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-08 23:12:13,248 [Worker-47: Build project "CW1Calculator"] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:12:13,253 [Worker-47: Build project "CW1Calculator"] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-08 23:12:13,348 [Worker-47: Build project "CW1Calculator"] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-08 23:12:13,367 [Worker-47: Build project "CW1Calculator"] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:12:13,371 [Worker-47: Build project "CW1Calculator"] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-08 23:12:26,035 [Worker-13: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-12-08 23:12:27,936 [Worker-13: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: uk.ac.rhul.cs2800:CW1Calculator:0.0.1-SNAPSHOT @ /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/pom.xml.
+2022-12-08 23:12:28,707 [Worker-13: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CW1Calculator/src/main/java
+2022-12-08 23:12:28,707 [Worker-13: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /CW1Calculator/src/main/java overlaps with sources folder /CW1Calculator/src/main/java
+2022-12-08 23:12:28,710 [Worker-13: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CW1Calculator/src/main/resources
+2022-12-08 23:12:28,713 [Worker-13: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CW1Calculator/src/test/java
+2022-12-08 23:12:29,525 [Worker-13: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2022-12-08 23:12:31,287 [Worker-101: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:12:31,294 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-08 23:12:31,479 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-08 23:12:31,514 [Worker-101: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:12:31,518 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-08 23:12:41,205 [Worker-13: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator
+2022-12-08 23:12:41,206 [Worker-13: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean compile javafx:run
+2022-12-08 23:13:28,877 [Worker-88: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator
+2022-12-08 23:13:28,878 [Worker-88: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean compile javafx:run
+2022-12-08 23:16:30,518 [Worker-38: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: uk.ac.rhul.cs2800:CW1Calculator:0.0.1-SNAPSHOT @ /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/pom.xml.
+2022-12-08 23:16:31,239 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:16:31,295 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-08 23:16:31,297 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-08 23:16:31,302 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:16:31,306 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-08 23:16:37,671 [Worker-89: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-12-08 23:16:38,900 [Worker-89: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: uk.ac.rhul.cs2800:CW1Calculator:0.0.1-SNAPSHOT @ /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/pom.xml.
+2022-12-08 23:16:39,453 [Worker-89: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CW1Calculator/src/main/java
+2022-12-08 23:16:39,455 [Worker-89: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /CW1Calculator/src/main/java overlaps with sources folder /CW1Calculator/src/main/java
+2022-12-08 23:16:39,458 [Worker-89: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CW1Calculator/src/main/resources
+2022-12-08 23:16:39,460 [Worker-89: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CW1Calculator/src/test/java
+2022-12-08 23:16:39,720 [Worker-89: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2022-12-08 23:16:41,411 [Worker-110: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:16:41,416 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-08 23:16:41,530 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-08 23:16:41,549 [Worker-110: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:16:41,556 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-08 23:19:42,127 [Worker-108: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator
+2022-12-08 23:19:42,128 [Worker-108: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean compile javafx:run
+2022-12-08 23:22:21,674 [Worker-114: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: uk.ac.rhul.cs2800:CW1Calculator:0.0.1-SNAPSHOT @ /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/pom.xml.
+2022-12-08 23:22:22,464 [Worker-114: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:22:22,511 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-08 23:22:22,513 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-08 23:22:22,518 [Worker-114: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:22:22,522 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-08 23:22:24,533 [Worker-114: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-12-08 23:22:25,713 [Worker-114: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: uk.ac.rhul.cs2800:CW1Calculator:0.0.1-SNAPSHOT @ /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/pom.xml.
+2022-12-08 23:22:26,263 [Worker-114: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CW1Calculator/src/main/java
+2022-12-08 23:22:26,266 [Worker-114: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /CW1Calculator/src/main/java overlaps with sources folder /CW1Calculator/src/main/java
+2022-12-08 23:22:26,268 [Worker-114: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CW1Calculator/src/main/resources
+2022-12-08 23:22:26,270 [Worker-114: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CW1Calculator/src/test/java
+2022-12-08 23:22:26,587 [Worker-114: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2022-12-08 23:22:28,358 [Worker-112: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:22:28,369 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-08 23:22:28,571 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-08 23:22:28,594 [Worker-112: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:22:28,604 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-08 23:22:34,703 [Worker-115: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator
+2022-12-08 23:22:34,704 [Worker-115: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean compile javafx:run
+2022-12-08 23:22:54,013 [Worker-38: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: uk.ac.rhul.cs2800:CW1Calculator:0.0.1-SNAPSHOT @ /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/pom.xml.
+2022-12-08 23:22:54,785 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:22:54,793 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-08 23:22:54,795 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-08 23:22:54,799 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:22:54,804 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-08 23:26:07,558 [Worker-116: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: uk.ac.rhul.cs2800:CW1Calculator:0.0.1-SNAPSHOT @ /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/pom.xml.
+2022-12-08 23:26:08,199 [Worker-116: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:26:08,213 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-08 23:26:08,216 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-08 23:26:08,221 [Worker-116: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:26:08,227 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-08 23:33:15,024 [Worker-121: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:33:15,041 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-08 23:33:15,130 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-08 23:33:15,136 [Worker-121: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:33:15,142 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-08 23:33:47,859 [Worker-121: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-12-08 23:33:49,697 [Worker-121: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: uk.ac.rhul.cs2800:CW1Calculator:0.0.1-SNAPSHOT @ /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/pom.xml.
+2022-12-08 23:33:50,525 [Worker-121: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CW1Calculator/src/main/java
+2022-12-08 23:33:50,528 [Worker-121: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /CW1Calculator/src/main/java overlaps with sources folder /CW1Calculator/src/main/java
+2022-12-08 23:33:50,528 [Worker-121: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CW1Calculator/src/main/resources
+2022-12-08 23:33:50,532 [Worker-121: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CW1Calculator/src/test/java
+2022-12-08 23:33:50,737 [Worker-121: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2022-12-08 23:33:52,647 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:33:52,652 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-08 23:33:52,759 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-08 23:33:52,774 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:33:52,780 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-08 23:33:53,866 [Worker-121: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator
+2022-12-08 23:33:53,868 [Worker-121: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean compile javafx:run
+2022-12-08 23:35:25,826 [Worker-123: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: uk.ac.rhul.cs2800:CW1Calculator:0.0.1-SNAPSHOT @ /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/pom.xml.
+2022-12-08 23:35:26,596 [Worker-123: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:35:26,629 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-08 23:35:26,631 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-08 23:35:26,634 [Worker-123: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:35:26,642 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-08 23:35:29,657 [Worker-119: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-12-08 23:35:30,832 [Worker-119: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: uk.ac.rhul.cs2800:CW1Calculator:0.0.1-SNAPSHOT @ /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/pom.xml.
+2022-12-08 23:35:31,364 [Worker-119: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CW1Calculator/src/main/java
+2022-12-08 23:35:31,367 [Worker-119: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /CW1Calculator/src/main/java overlaps with sources folder /CW1Calculator/src/main/java
+2022-12-08 23:35:31,371 [Worker-119: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CW1Calculator/src/main/resources
+2022-12-08 23:35:31,374 [Worker-119: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CW1Calculator/src/test/java
+2022-12-08 23:35:31,579 [Worker-119: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-12-08 23:35:33,288 [Worker-123: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:35:33,293 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-08 23:35:33,392 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-08 23:35:33,409 [Worker-123: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:35:33,415 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-08 23:35:39,203 [Worker-123: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator
+2022-12-08 23:35:39,206 [Worker-123: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean compile javafx:run
+2022-12-08 23:37:19,352 [Worker-125: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator
+2022-12-08 23:37:19,355 [Worker-125: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean compile javafx:run
+2022-12-08 23:39:13,376 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:39:13,392 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-08 23:39:13,429 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-08 23:39:13,436 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:39:13,441 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-08 23:39:18,644 [Worker-125: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-12-08 23:39:20,574 [Worker-125: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: uk.ac.rhul.cs2800:CW1Calculator:0.0.1-SNAPSHOT @ /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/pom.xml.
+2022-12-08 23:39:21,399 [Worker-125: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CW1Calculator/src/main/java
+2022-12-08 23:39:21,402 [Worker-125: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /CW1Calculator/src/main/java overlaps with sources folder /CW1Calculator/src/main/java
+2022-12-08 23:39:21,404 [Worker-125: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CW1Calculator/src/main/resources
+2022-12-08 23:39:21,406 [Worker-125: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CW1Calculator/src/test/java
+2022-12-08 23:39:21,422 [Worker-120: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator
+2022-12-08 23:39:21,422 [Worker-120: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean compile javafx:run
+2022-12-08 23:39:21,661 [Worker-125: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2022-12-08 23:39:22,101 [Worker-121: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:39:22,108 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-08 23:39:22,256 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-08 23:39:22,273 [Worker-121: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:39:22,276 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-08 23:39:23,518 [Worker-122: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:39:23,532 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-08 23:39:23,627 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-08 23:39:23,642 [Worker-122: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:39:23,648 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-08 23:39:24,960 [Worker-127: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:39:24,978 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-08 23:39:25,067 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-08 23:39:25,071 [Worker-127: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:39:25,076 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-08 23:40:53,786 [Worker-120: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-12-08 23:40:56,121 [Worker-120: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: uk.ac.rhul.cs2800:CW1Calculator:0.0.1-SNAPSHOT @ /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/pom.xml.
+2022-12-08 23:40:57,929 [Worker-120: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CW1Calculator/src/main/java
+2022-12-08 23:40:57,932 [Worker-120: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /CW1Calculator/src/main/java overlaps with sources folder /CW1Calculator/src/main/java
+2022-12-08 23:40:57,935 [Worker-120: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CW1Calculator/src/main/resources
+2022-12-08 23:40:57,936 [Worker-120: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CW1Calculator/src/test/java
+2022-12-08 23:40:58,166 [Worker-120: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2022-12-08 23:41:00,101 [Worker-125: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:41:00,107 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-08 23:41:00,287 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-08 23:41:00,307 [Worker-125: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:41:00,316 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-08 23:41:12,664 [Worker-133: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator
+2022-12-08 23:41:12,664 [Worker-133: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean compile javafx:run
+2022-12-08 23:43:17,894 [Worker-9: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-12-08 23:43:22,901 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:43:22,918 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-08 23:43:23,018 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-08 23:43:23,035 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:43:23,039 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-08 23:44:36,144 [Worker-57: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator
+2022-12-08 23:44:36,174 [Worker-57: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean compile javafx:run
+2022-12-08 23:47:08,560 [Worker-20: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: uk.ac.rhul.cs2800:CW1Calculator:0.0.1-SNAPSHOT @ /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/pom.xml.
+2022-12-08 23:47:10,081 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:47:10,101 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-08 23:47:10,101 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-08 23:47:10,103 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:47:10,108 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-08 23:47:14,870 [Worker-4: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator
+2022-12-08 23:47:14,870 [Worker-4: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean compile javafx:run
+2022-12-08 23:49:04,882 [Worker-48: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: uk.ac.rhul.cs2800:CW1Calculator:0.0.1-SNAPSHOT @ /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/pom.xml.
+2022-12-08 23:49:06,173 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:49:06,186 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-08 23:49:06,186 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-08 23:49:06,191 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-08 23:49:06,197 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-08 23:49:11,539 [Worker-83: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator
+2022-12-08 23:49:11,539 [Worker-83: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean compile javafx:run
+2022-12-09 00:00:57,378 [Worker-52: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: uk.ac.rhul.cs2800:calculator-cs2800:0.0.1-SNAPSHOT @ /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/pom.xml.
+2022-12-09 00:00:58,285 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-09 00:00:58,317 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-09 00:00:58,321 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-09 00:00:58,326 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-09 00:00:58,326 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-09 00:00:59,127 [Worker-4: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/openjfx/javafx-controls/14/javafx-controls-14-sources.jar
+2022-12-09 00:00:59,293 [Worker-4: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/openjfx/javafx-controls/14/javafx-controls-14-sources.jar
+2022-12-09 00:01:00,119 [Worker-4: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.openjfx:javafx-controls:14
+2022-12-09 00:01:00,141 [Worker-4: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.openjfx:javafx-controls:14:linux
+2022-12-09 00:01:00,369 [Worker-4: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/openjfx/javafx-graphics/14/javafx-graphics-14-sources.jar
+2022-12-09 00:01:00,740 [Worker-4: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/openjfx/javafx-graphics/14/javafx-graphics-14-sources.jar
+2022-12-09 00:01:01,162 [Worker-4: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.openjfx:javafx-graphics:14
+2022-12-09 00:01:01,179 [Worker-4: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.openjfx:javafx-graphics:14:linux
+2022-12-09 00:01:01,315 [Worker-4: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/openjfx/javafx-base/14/javafx-base-14-sources.jar
+2022-12-09 00:01:01,492 [Worker-4: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/openjfx/javafx-base/14/javafx-base-14-sources.jar
+2022-12-09 00:01:02,120 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-09 00:01:02,136 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-09 00:01:02,145 [Worker-4: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.openjfx:javafx-base:14
+2022-12-09 00:01:02,165 [Worker-4: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.openjfx:javafx-base:14:linux
+2022-12-09 00:01:02,407 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-09 00:01:02,440 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-09 00:01:02,441 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-09 00:01:03,464 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-09 00:01:03,468 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-09 00:01:03,472 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-09 00:01:03,477 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-09 00:01:03,477 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-09 00:03:38,204 [Worker-91: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: uk.ac.rhul.cs2800:CW1Calculator:0.0.1-SNAPSHOT @ /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/pom.xml.
+2022-12-09 00:03:39,269 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-09 00:03:39,271 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-09 00:03:39,272 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-09 00:03:39,281 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-09 00:03:39,281 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-09 00:03:43,569 [Worker-91: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-12-09 00:03:44,906 [Worker-91: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: uk.ac.rhul.cs2800:CW1Calculator:0.0.1-SNAPSHOT @ /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/pom.xml.
+2022-12-09 00:03:45,653 [Worker-91: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CW1Calculator/src/main/java
+2022-12-09 00:03:45,656 [Worker-91: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /CW1Calculator/src/main/java overlaps with sources folder /CW1Calculator/src/main/java
+2022-12-09 00:03:45,659 [Worker-91: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CW1Calculator/src/main/resources
+2022-12-09 00:03:45,724 [Worker-91: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CW1Calculator/src/test/java
+2022-12-09 00:03:46,891 [Worker-91: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2022-12-09 00:03:48,797 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-09 00:03:48,798 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-09 00:03:48,904 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-09 00:03:48,922 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-09 00:03:48,924 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-09 00:04:07,823 [Worker-95: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-12-09 00:04:08,988 [Worker-95: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: uk.ac.rhul.cs2800:CW1Calculator:0.0.1-SNAPSHOT @ /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/pom.xml.
+2022-12-09 00:04:09,691 [Worker-95: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CW1Calculator/src/main/java
+2022-12-09 00:04:09,695 [Worker-95: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /CW1Calculator/src/main/java overlaps with sources folder /CW1Calculator/src/main/java
+2022-12-09 00:04:09,698 [Worker-95: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CW1Calculator/src/main/resources
+2022-12-09 00:04:09,699 [Worker-95: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CW1Calculator/src/test/java
+2022-12-09 00:04:10,738 [Worker-95: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2022-12-09 00:04:12,898 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-09 00:04:12,899 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-09 00:04:13,023 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-09 00:04:13,040 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-09 00:04:13,043 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-09 00:05:35,367 [Worker-100: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator
+2022-12-09 00:05:35,369 [Worker-100: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean compile javafx:run
+2022-12-09 00:06:42,443 [Worker-103: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: uk.ac.rhul.cs2800:CW1Calculator:0.0.1-SNAPSHOT @ /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/pom.xml.
+2022-12-09 00:06:43,380 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-09 00:06:43,395 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-09 00:06:43,734 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-09 00:06:43,743 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-09 00:06:43,743 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-09 00:06:43,787 [Worker-99: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator
+2022-12-09 00:06:43,787 [Worker-99: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean compile javafx:run
+2022-12-09 00:08:03,370 [Worker-100: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: uk.ac.rhul.cs2800:CW1Calculator:0.0.1-SNAPSHOT @ /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/pom.xml.
+2022-12-09 00:08:04,138 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-09 00:08:04,155 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-09 00:08:04,314 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-09 00:08:04,329 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-09 00:08:04,329 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-09 00:08:06,197 [Worker-103: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator
+2022-12-09 00:08:06,198 [Worker-103: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean compile javafx:run
+2022-12-09 00:08:35,435 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/takari/m2e/workspace/org.eclipse.m2e.workspace.cli/0.3.1/org.eclipse.m2e.workspace.cli-0.3.1-sources.jar
+2022-12-09 00:08:35,483 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/takari/m2e/workspace/org.eclipse.m2e.workspace.cli/0.3.1/org.eclipse.m2e.workspace.cli-0.3.1-sources.jar
+2022-12-09 00:08:36,399 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.6.0/plexus-classworlds-2.6.0-sources.jar
+2022-12-09 00:08:36,429 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.6.0/plexus-classworlds-2.6.0-sources.jar
+2022-12-09 00:08:37,210 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.8.4/maven-core-3.8.4-sources.jar
+2022-12-09 00:08:37,332 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.8.4/maven-core-3.8.4-sources.jar
+2022-12-09 00:08:38,044 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.8.4/maven-model-3.8.4-sources.jar
+2022-12-09 00:08:38,104 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.8.4/maven-model-3.8.4-sources.jar
+2022-12-09 00:08:38,918 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.8.4/maven-settings-3.8.4-sources.jar
+2022-12-09 00:08:38,954 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.8.4/maven-settings-3.8.4-sources.jar
+2022-12-09 00:08:39,306 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.8.4/maven-settings-builder-3.8.4-sources.jar
+2022-12-09 00:08:39,340 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.8.4/maven-settings-builder-3.8.4-sources.jar
+2022-12-09 00:08:39,697 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-builder-support/3.8.4/maven-builder-support-3.8.4-sources.jar
+2022-12-09 00:08:39,736 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-builder-support/3.8.4/maven-builder-support-3.8.4-sources.jar
+2022-12-09 00:08:40,211 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.8.4/maven-repository-metadata-3.8.4-sources.jar
+2022-12-09 00:08:40,252 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.8.4/maven-repository-metadata-3.8.4-sources.jar
+2022-12-09 00:08:40,556 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.8.4/maven-artifact-3.8.4-sources.jar
+2022-12-09 00:08:40,600 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.8.4/maven-artifact-3.8.4-sources.jar
+2022-12-09 00:08:40,962 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.8.4/maven-plugin-api-3.8.4-sources.jar
+2022-12-09 00:08:40,993 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.8.4/maven-plugin-api-3.8.4-sources.jar
+2022-12-09 00:08:41,343 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.8.4/maven-model-builder-3.8.4-sources.jar
+2022-12-09 00:08:41,382 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.8.4/maven-model-builder-3.8.4-sources.jar
+2022-12-09 00:08:41,732 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-resolver-provider/3.8.4/maven-resolver-provider-3.8.4-sources.jar
+2022-12-09 00:08:41,783 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-resolver-provider/3.8.4/maven-resolver-provider-3.8.4-sources.jar
+2022-12-09 00:08:42,176 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.6.3/maven-resolver-api-1.6.3-sources.jar
+2022-12-09 00:08:42,231 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.6.3/maven-resolver-api-1.6.3-sources.jar
+2022-12-09 00:08:43,107 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-spi/1.6.3/maven-resolver-spi-1.6.3-sources.jar
+2022-12-09 00:08:43,147 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-spi/1.6.3/maven-resolver-spi-1.6.3-sources.jar
+2022-12-09 00:08:43,495 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.6.3/maven-resolver-util-1.6.3-sources.jar
+2022-12-09 00:08:43,536 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.6.3/maven-resolver-util-1.6.3-sources.jar
+2022-12-09 00:08:43,894 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.3.4/maven-shared-utils-3.3.4-sources.jar
+2022-12-09 00:08:43,950 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.3.4/maven-shared-utils-3.3.4-sources.jar
+2022-12-09 00:08:44,495 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-io/commons-io/2.6/commons-io-2.6-sources.jar
+2022-12-09 00:08:44,571 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-io/commons-io/2.6/commons-io-2.6-sources.jar
+2022-12-09 00:08:45,463 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0-sources.jar
+2022-12-09 00:08:45,511 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0-sources.jar
+2022-12-09 00:08:45,931 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26-sources.jar
+2022-12-09 00:08:45,967 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26-sources.jar
+2022-12-09 00:08:46,403 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/2.1.0/plexus-component-annotations-2.1.0-sources.jar
+2022-12-09 00:08:46,431 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/2.1.0/plexus-component-annotations-2.1.0-sources.jar
+2022-12-09 00:08:47,069 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1-sources.jar
+2022-12-09 00:08:47,134 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1-sources.jar
+2022-12-09 00:08:47,769 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-embedder/3.8.4/maven-embedder-3.8.4-sources.jar
+2022-12-09 00:08:47,805 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-embedder/3.8.4/maven-embedder-3.8.4-sources.jar
+2022-12-09 00:08:48,218 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2-sources.jar
+2022-12-09 00:08:48,246 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2-sources.jar
+2022-12-09 00:08:48,997 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-sec-dispatcher/2.0/plexus-sec-dispatcher-2.0-sources.jar
+2022-12-09 00:08:49,032 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-sec-dispatcher/2.0/plexus-sec-dispatcher-2.0-sources.jar
+2022-12-09 00:08:49,451 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-cipher/2.0/plexus-cipher-2.0-sources.jar
+2022-12-09 00:08:49,485 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-cipher/2.0/plexus-cipher-2.0-sources.jar
+2022-12-09 00:08:49,904 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.4/commons-cli-1.4-sources.jar
+2022-12-09 00:08:49,934 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.4/commons-cli-1.4-sources.jar
+2022-12-09 00:08:51,133 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-compat/3.8.4/maven-compat-3.8.4-sources.jar
+2022-12-09 00:08:51,173 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-compat/3.8.4/maven-compat-3.8.4-sources.jar
+2022-12-09 00:08:52,244 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/3.4.3/wagon-provider-api-3.4.3-sources.jar
+2022-12-09 00:08:52,285 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/3.4.3/wagon-provider-api-3.4.3-sources.jar
+2022-12-09 00:08:52,916 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/takari/aether/aether-connector-okhttp/0.17.8/aether-connector-okhttp-0.17.8-sources.jar
+2022-12-09 00:08:52,961 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/takari/aether/aether-connector-okhttp/0.17.8/aether-connector-okhttp-0.17.8-sources.jar
+2022-12-09 00:08:53,651 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/3.14.1/okhttp-3.14.1-sources.jar
+2022-12-09 00:08:53,694 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/3.14.1/okhttp-3.14.1-sources.jar
+2022-12-09 00:08:54,567 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/squareup/okio/okio/1.17.3/okio-1.17.3-sources.jar
+2022-12-09 00:08:54,659 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/squareup/okio/okio/1.17.3/okio-1.17.3-sources.jar
+2022-12-09 00:08:55,363 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-impl/1.6.3/maven-resolver-impl-1.6.3-sources.jar
+2022-12-09 00:08:55,400 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-impl/1.6.3/maven-resolver-impl-1.6.3-sources.jar
+2022-12-09 00:08:55,917 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-connector-basic/1.6.3/maven-resolver-connector-basic-1.6.3-sources.jar
+2022-12-09 00:08:55,945 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-connector-basic/1.6.3/maven-resolver-connector-basic-1.6.3-sources.jar
+2022-12-09 00:08:56,306 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-transport-wagon/1.6.3/maven-resolver-transport-wagon-1.6.3-sources.jar
+2022-12-09 00:08:56,335 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-transport-wagon/1.6.3/maven-resolver-transport-wagon-1.6.3-sources.jar
+2022-12-09 00:08:57,131 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-file/3.4.3/wagon-file-3.4.3-sources.jar
+2022-12-09 00:08:57,160 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-file/3.4.3/wagon-file-3.4.3-sources.jar
+2022-12-09 00:08:57,497 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi/2.4.0/jansi-2.4.0-sources.jar
+2022-12-09 00:08:57,540 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi/2.4.0/jansi-2.4.0-sources.jar
+2022-12-09 00:08:58,235 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/1.7.30/slf4j-simple-1.7.30-sources.jar
+2022-12-09 00:08:58,291 [Worker-100: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/1.7.30/slf4j-simple-1.7.30-sources.jar
+2022-12-11 16:49:24,718 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-12-11 16:49:38,678 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-11 16:49:38,692 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-11 16:49:38,834 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-11 16:49:38,865 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-11 16:49:38,867 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-11 16:50:46,253 [Worker-20: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: uk.ac.rhul.cs2800:CW1Calculator:0.0.1-SNAPSHOT @ /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/pom.xml.
+2022-12-11 16:50:48,836 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 16:50:48,855 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-11 16:50:48,856 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-11 16:50:48,860 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 16:50:48,865 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-11 16:50:53,779 [Worker-110: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 16:50:53,806 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-11 16:50:53,938 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-11 16:50:53,961 [Worker-110: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 16:50:53,970 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-11 16:51:37,339 [Worker-144: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 16:51:37,355 [Worker-144: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-11 16:51:37,389 [Worker-144: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-11 16:51:37,396 [Worker-144: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 16:51:37,403 [Worker-144: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-11 16:51:44,624 [Worker-110: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator
+2022-12-11 16:51:44,626 [Worker-110: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean compile javafx:run
+2022-12-11 16:54:01,515 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 16:54:01,536 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-11 16:54:01,572 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-11 16:54:01,579 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 16:54:01,586 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-11 16:54:03,918 [Worker-156: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator
+2022-12-11 16:54:03,919 [Worker-156: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean compile javafx:run
+2022-12-11 16:56:32,775 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 16:56:32,796 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-11 16:56:32,842 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-11 16:56:32,850 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 16:56:32,856 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-11 16:56:42,150 [Worker-158: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 16:56:42,164 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-11 16:56:42,178 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-11 16:56:42,181 [Worker-158: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 16:56:42,188 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-11 16:57:25,492 [Worker-158: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator
+2022-12-11 16:57:25,493 [Worker-158: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean compile javafx:run
+2022-12-11 16:58:01,215 [Worker-157: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 16:58:01,231 [Worker-157: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-11 16:58:01,265 [Worker-157: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-11 16:58:01,274 [Worker-157: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 16:58:01,278 [Worker-157: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-11 16:58:15,367 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 16:58:15,384 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-11 16:58:15,413 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-11 16:58:15,421 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 16:58:15,426 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-11 16:58:54,372 [Worker-157: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-12-11 16:58:56,757 [Worker-157: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: uk.ac.rhul.cs2800:CW1Calculator:0.0.1-SNAPSHOT @ /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/pom.xml.
+2022-12-11 16:58:58,427 [Worker-157: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CW1Calculator/src/main/java
+2022-12-11 16:58:58,428 [Worker-157: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /CW1Calculator/src/main/java overlaps with sources folder /CW1Calculator/src/main/java
+2022-12-11 16:58:58,429 [Worker-157: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CW1Calculator/src/main/resources
+2022-12-11 16:58:58,468 [Worker-157: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CW1Calculator/src/test/java
+2022-12-11 16:58:59,151 [Worker-157: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2022-12-11 16:59:01,357 [Worker-159: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 16:59:01,364 [Worker-159: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-11 16:59:01,487 [Worker-159: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-11 16:59:01,507 [Worker-159: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 16:59:01,516 [Worker-159: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-11 16:59:02,612 [Worker-8: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator
+2022-12-11 16:59:02,615 [Worker-8: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean compile javafx:run
+2022-12-11 20:51:07,838 [Worker-161: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 20:51:07,866 [Worker-161: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-11 20:51:08,055 [Worker-161: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-11 20:51:08,092 [Worker-161: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 20:51:08,098 [Worker-161: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-11 20:51:10,427 [Worker-164: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator
+2022-12-11 20:51:10,428 [Worker-164: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean compile javafx:run
+2022-12-11 22:31:06,606 [Worker-166: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 22:31:06,615 [Worker-166: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-11 22:31:06,658 [Worker-166: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-12-11 22:31:06,675 [Worker-166: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 22:31:06,682 [Worker-166: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-11 22:31:41,126 [Worker-168: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-12-11 22:31:44,305 [Worker-168: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: uk.ac.rhul.cs2800:CW1Calculator:0.0.1-SNAPSHOT @ /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/pom.xml.
+2022-12-11 22:31:45,082 [Worker-165: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator
+2022-12-11 22:31:45,086 [Worker-165: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean compile javafx:run
+2022-12-11 22:31:45,634 [Worker-168: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CW1Calculator/src/main/java
+2022-12-11 22:31:45,635 [Worker-168: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /CW1Calculator/src/main/java overlaps with sources folder /CW1Calculator/src/main/java
+2022-12-11 22:31:45,635 [Worker-168: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CW1Calculator/src/main/resources
+2022-12-11 22:31:45,640 [Worker-168: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CW1Calculator/src/test/java
+2022-12-11 22:31:46,062 [Worker-168: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2022-12-11 22:31:48,601 [Worker-170: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 22:31:48,608 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-11 22:31:48,724 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-11 22:31:48,743 [Worker-170: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 22:31:48,751 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-11 22:32:44,757 [Worker-167: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator
+2022-12-11 22:32:44,759 [Worker-167: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean compile javafx:run
+2022-12-11 22:32:45,138 [Worker-165: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 22:32:45,155 [Worker-165: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-11 22:32:45,192 [Worker-165: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-11 22:32:45,200 [Worker-165: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 22:32:45,204 [Worker-165: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-11 22:57:18,797 [Worker-175: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 22:57:18,807 [Worker-175: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-11 22:57:18,808 [Worker-175: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-12-11 22:57:18,821 [Worker-175: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 22:57:18,828 [Worker-175: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-11 22:59:16,128 [Worker-175: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-12-11 22:59:18,550 [Worker-175: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: uk.ac.rhul.cs2800:CW1Calculator:0.0.1-SNAPSHOT @ /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/pom.xml.
+2022-12-11 22:59:19,522 [Worker-175: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CW1Calculator/src/main/java
+2022-12-11 22:59:19,525 [Worker-175: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /CW1Calculator/src/main/java overlaps with sources folder /CW1Calculator/src/main/java
+2022-12-11 22:59:19,529 [Worker-175: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CW1Calculator/src/main/resources
+2022-12-11 22:59:19,536 [Worker-175: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CW1Calculator/src/test/java
+2022-12-11 22:59:19,918 [Worker-175: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2022-12-11 22:59:22,030 [Worker-175: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 22:59:22,036 [Worker-175: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-11 22:59:22,150 [Worker-175: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-11 22:59:22,168 [Worker-175: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 22:59:22,176 [Worker-175: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-11 22:59:26,396 [Worker-180: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator
+2022-12-11 22:59:26,398 [Worker-180: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean compile javafx:run
+2022-12-11 23:01:11,312 [Worker-183: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 23:01:11,335 [Worker-183: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-11 23:01:11,372 [Worker-183: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-11 23:01:11,381 [Worker-183: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 23:01:11,386 [Worker-183: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-11 23:01:25,078 [Worker-183: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator
+2022-12-11 23:01:25,079 [Worker-183: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean compile javafx:run
+2022-12-11 23:02:02,642 [Worker-187: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator
+2022-12-11 23:02:02,643 [Worker-187: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean compile javafx:run
+2022-12-11 23:02:03,026 [Worker-186: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 23:02:03,042 [Worker-186: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-11 23:02:03,078 [Worker-186: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-11 23:02:03,085 [Worker-186: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 23:02:03,094 [Worker-186: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-11 23:02:29,571 [Worker-183: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator
+2022-12-11 23:02:29,572 [Worker-183: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean compile javafx:run
+2022-12-11 23:02:58,929 [Worker-187: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator
+2022-12-11 23:02:58,929 [Worker-187: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean compile javafx:run
+2022-12-11 23:02:59,628 [Worker-189: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 23:02:59,645 [Worker-189: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-11 23:02:59,689 [Worker-189: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-11 23:02:59,698 [Worker-189: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 23:02:59,704 [Worker-189: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-11 23:15:38,542 [Worker-193: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 23:15:38,562 [Worker-193: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-11 23:15:38,602 [Worker-193: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-11 23:15:38,621 [Worker-193: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 23:15:38,835 [Worker-193: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-11 23:15:40,014 [Worker-195: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 23:15:40,022 [Worker-195: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-11 23:15:40,025 [Worker-195: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-12-11 23:15:40,029 [Worker-195: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 23:15:40,034 [Worker-195: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-11 23:15:44,237 [Worker-188: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-12-11 23:15:46,278 [Worker-188: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: uk.ac.rhul.cs2800:CW1Calculator:0.0.1-SNAPSHOT @ /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/pom.xml.
+2022-12-11 23:15:47,159 [Worker-188: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CW1Calculator/src/main/java
+2022-12-11 23:15:47,159 [Worker-188: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /CW1Calculator/src/main/java overlaps with sources folder /CW1Calculator/src/main/java
+2022-12-11 23:15:47,160 [Worker-188: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CW1Calculator/src/main/resources
+2022-12-11 23:15:47,162 [Worker-188: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CW1Calculator/src/test/java
+2022-12-11 23:15:47,411 [Worker-188: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2022-12-11 23:15:49,541 [Worker-197: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 23:15:49,550 [Worker-197: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-11 23:15:49,744 [Worker-197: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-11 23:15:49,767 [Worker-197: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 23:15:49,772 [Worker-197: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-11 23:15:49,805 [Worker-182: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator
+2022-12-11 23:15:49,805 [Worker-182: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean compile javafx:run
+2022-12-11 23:36:22,585 [Worker-188: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 23:36:22,608 [Worker-188: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-11 23:36:22,803 [Worker-188: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-11 23:36:22,882 [Worker-188: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 23:36:22,889 [Worker-188: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-11 23:36:26,362 [Worker-192: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator
+2022-12-11 23:36:26,362 [Worker-192: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean compile javafx:run
+2022-12-11 23:36:27,160 [Worker-201: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 23:36:27,165 [Worker-201: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-11 23:36:27,166 [Worker-201: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-12-11 23:36:27,170 [Worker-201: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 23:36:27,175 [Worker-201: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-11 23:39:38,201 [Worker-188: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 23:39:38,223 [Worker-188: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-11 23:39:38,247 [Worker-188: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-11 23:39:38,252 [Worker-188: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 23:39:38,260 [Worker-188: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-11 23:40:10,959 [Worker-199: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator
+2022-12-11 23:40:10,964 [Worker-199: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean compile javafx:run
+2022-12-11 23:40:11,468 [Worker-203: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 23:40:11,497 [Worker-203: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-11 23:40:11,531 [Worker-203: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-11 23:40:11,547 [Worker-203: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 23:40:11,564 [Worker-203: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-11 23:46:24,378 [Worker-200: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator
+2022-12-11 23:46:24,381 [Worker-200: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean compile javafx:run
+2022-12-11 23:46:25,067 [Worker-207: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 23:46:25,083 [Worker-207: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-11 23:46:25,103 [Worker-207: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-11 23:46:25,108 [Worker-207: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 23:46:25,116 [Worker-207: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-11 23:51:52,242 [Worker-206: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator
+2022-12-11 23:51:52,245 [Worker-206: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean compile javafx:run
+2022-12-11 23:53:25,341 [Worker-206: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 23:53:25,360 [Worker-206: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 13 resources
+2022-12-11 23:53:25,437 [Worker-206: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-11 23:53:25,448 [Worker-206: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 23:53:25,452 [Worker-206: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-11 23:54:52,871 [Worker-204: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 23:54:52,886 [Worker-204: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 13 resources
+2022-12-11 23:54:52,919 [Worker-204: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-11 23:54:52,929 [Worker-204: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 23:54:52,936 [Worker-204: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-11 23:54:54,005 [Worker-211: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 23:54:54,024 [Worker-211: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 13 resources
+2022-12-11 23:54:54,031 [Worker-211: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-11 23:54:54,036 [Worker-211: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 23:54:54,041 [Worker-211: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-11 23:55:34,840 [Worker-211: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 23:55:34,855 [Worker-211: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 13 resources
+2022-12-11 23:55:34,891 [Worker-211: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-11 23:55:34,900 [Worker-211: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 23:55:34,907 [Worker-211: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-11 23:55:59,921 [Worker-206: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 23:55:59,938 [Worker-206: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-11 23:55:59,967 [Worker-206: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-11 23:55:59,972 [Worker-206: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 23:55:59,978 [Worker-206: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-11 23:56:07,708 [Worker-206: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 23:56:07,723 [Worker-206: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-11 23:56:07,780 [Worker-206: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-11 23:56:07,783 [Worker-206: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 23:56:07,792 [Worker-206: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-11 23:56:08,810 [Worker-213: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 23:56:08,828 [Worker-213: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-11 23:56:08,831 [Worker-213: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-11 23:56:08,839 [Worker-213: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 23:56:08,844 [Worker-213: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-11 23:56:43,215 [Worker-204: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 23:56:43,263 [Worker-204: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-11 23:56:43,266 [Worker-204: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-11 23:56:43,270 [Worker-204: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 23:56:43,278 [Worker-204: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-11 23:57:06,653 [Worker-212: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 23:57:06,659 [Worker-212: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-11 23:57:06,662 [Worker-212: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-11 23:57:06,667 [Worker-212: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-11 23:57:06,672 [Worker-212: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-12 00:00:19,384 [Worker-204: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-12 00:00:19,392 [Worker-204: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-12 00:00:19,392 [Worker-204: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-12 00:00:19,396 [Worker-204: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-12 00:00:19,404 [Worker-204: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-12 00:00:53,088 [Worker-213: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator
+2022-12-12 00:00:53,088 [Worker-213: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean compile javafx:run
+2022-12-12 00:01:23,846 [Worker-204: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-12-12 00:01:25,553 [Worker-204: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: uk.ac.rhul.cs2800:CW1Calculator:0.0.1-SNAPSHOT @ /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/pom.xml.
+2022-12-12 00:01:26,704 [Worker-204: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CW1Calculator/src/main/java
+2022-12-12 00:01:26,708 [Worker-204: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /CW1Calculator/src/main/java overlaps with sources folder /CW1Calculator/src/main/java
+2022-12-12 00:01:26,714 [Worker-204: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CW1Calculator/src/main/resources
+2022-12-12 00:01:26,721 [Worker-204: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CW1Calculator/src/test/java
+2022-12-12 00:01:27,372 [Worker-204: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2022-12-12 00:01:28,016 [Worker-223: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-12 00:01:28,023 [Worker-223: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-12 00:01:28,181 [Worker-223: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-12 00:01:28,207 [Worker-223: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-12 00:01:28,214 [Worker-223: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-12 00:01:47,424 [Worker-213: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator
+2022-12-12 00:01:47,428 [Worker-213: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean compile javafx:run
+2022-12-12 00:02:21,369 [Worker-227: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator
+2022-12-12 00:02:21,370 [Worker-227: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean compile javafx:run
+2022-12-12 00:04:57,905 [Worker-224: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-12 00:04:57,927 [Worker-224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-12 00:04:58,108 [Worker-224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-12 00:04:58,135 [Worker-224: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-12 00:04:58,144 [Worker-224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-12 00:05:51,331 [Worker-223: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-12 00:05:51,346 [Worker-223: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2022-12-12 00:05:51,379 [Worker-223: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-12 00:05:51,385 [Worker-223: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-12 00:05:51,412 [Worker-223: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
+2022-12-12 00:06:10,057 [Worker-213: Launching TestRevPolish] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.4.0/junit-platform-launcher-1.4.0.jar
+2022-12-12 00:06:10,186 [Worker-213: Launching TestRevPolish] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.4.0/junit-platform-launcher-1.4.0.jar
+2022-12-12 00:12:43,508 [Worker-213: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-12 00:12:43,520 [Worker-213: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-12 00:12:43,523 [Worker-213: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-12 00:12:43,528 [Worker-213: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-12 00:12:43,548 [Worker-213: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/cim/ug/zjac350/CS2800/Calculator/CW1Calculator/src/test/resources
