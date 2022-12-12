@@ -20,4 +20,6 @@
 		<item key="EditorSelectionDialog.STORE_ID_DESCR" value="/home/cim/ug/zjac350/Desktop/scenebuilder"/>
 		<item key="EditorSelectionDialog.STORE_ID_FILE_EXTENSION" value=".fxml"/>
 	</section>
+	<section name="NewWizardAction">
+	</section>
 </section>

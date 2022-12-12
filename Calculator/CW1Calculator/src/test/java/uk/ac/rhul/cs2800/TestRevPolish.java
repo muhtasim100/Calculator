@@ -6,6 +6,12 @@ import java.util.EmptyStackException;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+/**
+ * Test case for RevPolishCalc.
+ *
+ * @author muhtasim
+ *
+ */
 class TestRevPolish {
   @BeforeEach
   void setup() throws Exception {

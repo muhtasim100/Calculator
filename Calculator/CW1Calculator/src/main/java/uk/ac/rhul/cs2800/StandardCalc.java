@@ -12,8 +12,10 @@ public class StandardCalc {
   public OpStack values;
   OpStack op = new OpStack();
   RevPolishCalc rpCalc = new RevPolishCalc();
+
   public StrStack vals;
   StrStack str = new StrStack();
+
 
   /**
    * Method evaluate splits the string input by the user and pushes numbers into the stack. Then
